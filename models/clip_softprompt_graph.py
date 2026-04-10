@@ -162,6 +162,8 @@ class CLIPSoftPromptGraph(CLIPSoftPrompt):
         return h_attr, h_obj, h_comp
 
     def _encode_text_with_graph(self, ctx, class_embeds, base_anchor, meta_tokens, mini_batch=256):
+        import torch.utils.checkpoint as cp  # 引入检查点机制
+        
         N = class_embeds.shape[0]
         results = []
 
@@ -194,7 +196,17 @@ class CLIPSoftPromptGraph(CLIPSoftPrompt):
 
             x = x + self.positional_embedding.float()
             x = x.permute(1, 0, 2)
-            x = self.transformer(x)
+            
+            # ==========================================================
+            # 核心修改：使用 Checkpoint 抹除 Transformer 的显存累积
+            # ==========================================================
+            # 只有在需要求导时（即训练时）才使用 checkpoint
+            if x.requires_grad:
+                x = cp.checkpoint(self.transformer, x, use_reentrant=False)
+            else:
+                x = self.transformer(x)
+            # ==========================================================
+            
             x = x.permute(1, 0, 2).float()
             x = self.ln_final(x)
 

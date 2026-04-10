@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=cgqa-graph
 #SBATCH --partition=gpu_mem
-#SBATCH --gres=gpu:2
+#SBATCH --gres=gpu:4
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --time=12:00:00
@@ -22,13 +22,13 @@ export LANG=C.UTF-8
 export OMP_NUM_THREADS=1
 export PYTHONUNBUFFERED=1
 
-# [修改1] 指向 C-GQA 数据集目录
+# [核心修改 1] 针对报错提示，限制 PyTorch 显存分配器的最大碎片大小，能极大缓解 40G 显卡的 OOM
+export PYTORCH_CUDA_ALLOC_CONF="max_split_size_mb:128"
+
 DATA_ROOT="/home/bingxing2/home/scx6d4e/run/xuanzhenzhen/Base/data/cgqa"
-# [修改2] 修正了 ov-graph 路径，并指向 cgqa_neighbors
 LLM_DIR="/home/bingxing2/home/scx6d4e/run/xuanzhenzhen/ov-graph/llm_nel_gen/cgqa_neighbors"
-# [修改3] 使用 C-GQA 的配置文件
 CONFIG="config/cgqa_softprompt_graph.yml"
-N_GPU=2
+N_GPU=4
 
 echo "=========================================================="
 echo "  Step3: 软提示 + RGCN 异构图注入 | C-GQA"
@@ -41,20 +41,22 @@ python train.py --cfg ${CONFIG} \
     DISTRIBUTED.world_size     ${N_GPU}                         \
     TRAIN.checkpoint_dir       "checkpoints/cgqa/Graph/${SLURM_JOB_ID}" \
     TRAIN.log_dir              "tensorboards/cgqa/Graph/${SLURM_JOB_ID}" \
-    TRAIN.batch_size           32                               \
+    TRAIN.batch_size           64                             \
+    TRAIN.test_batch_size      256                              \
+    TRAIN.sample_negative_pairs 512                             \
     TRAIN.lr                   5e-5                             \
     TRAIN.max_epoch            20                               \
     MODEL.n_ctx                16                               \
     MODEL.n_meta_ctx           4                                \
-    MODEL.graph_dim            512                              \
+    MODEL.graph_dim            128                              \
     MODEL.graph_layers         2                                \
-    MODEL.graph_dropout        0.3                              \
+    MODEL.graph_dropout        0.4                              \
     MODEL.w_loss_attr          0.3                              \
     MODEL.w_loss_obj           0.3                              \
     MODEL.w_loss_neigh         0.1                              \
-    MODEL.use_llm_nel          True                             \
+    MODEL.use_llm_nel          False                             \
     MODEL.llm_nel_dir          ${LLM_DIR}                       \
-    MODEL.max_neighbors        3
+    MODEL.max_neighbors        2
 
 echo "  训练完成"
 echo "=========================================================="
