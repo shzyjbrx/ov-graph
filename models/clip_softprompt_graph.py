@@ -84,7 +84,7 @@ class CLIPSoftPromptGraph(CLIPSoftPrompt):
 
     @torch.no_grad()
     def _init_node_features(self):
-        """🌟 绝对安全的 CPU 计算，彻底防止多进程 DataLoader 崩溃"""
+        """🚀 移至 GPU 的特征预计算，大幅提速"""
         from tqdm import tqdm
 
         dset_name = getattr(self.cfg.DATASET, 'name', 'dataset')
@@ -94,34 +94,44 @@ class CLIPSoftPromptGraph(CLIPSoftPrompt):
 
         if rank == 0:
             if not os.path.exists(cache_path):
-                print(f"[Graph] 未发现图特征缓存，Rank 0 开始在 CPU 上独立计算...")
-                print(f"[Graph] ⚠️ 预计需要 30-60 秒，请耐心等待，这能彻底避免多进程崩溃！")
+                print(f"[Graph] 未发现图特征缓存，Rank 0 开始在 GPU 上高速计算...")
+                
+                # 1. 获取当前 Rank 对应的 GPU 设备
+                device = torch.device(f"cuda:{rank}" if torch.cuda.is_available() else "cpu")
+                
+                # 2. 临时将需要用到的 CLIP 文本组件放到 GPU 上
+                self.token_embedding.to(device)
+                self.transformer.to(device)
+                self.ln_final.to(device)
+                pos_emb = self.positional_embedding.to(device).float()
+                text_proj = self.text_projection.to(device).float()
 
                 node_names = self.graph_builder.get_all_node_names()
                 all_feats  = []
-                BATCH      = 128
+                BATCH      = 512  # GPU 并行能力强，Batch 调大加速
 
-                for i in tqdm(range(0, len(node_names), BATCH), desc="Init H(0) (CPU)"):
+                for i in tqdm(range(0, len(node_names), BATCH), desc=f"Init H(0) (GPU)"):
                     batch_names = node_names[i: i + BATCH]
                     texts  = [f"a photo of {n.replace('_', ' ')}" for n in batch_names]
                     
-                    # 强制在 CPU 上运行，杜绝一切 CUDA 上下文污染
-                    tokens = clip.tokenize(texts, truncate=True)
+                    # 3. 将输入的 token 移至 GPU
+                    tokens = clip.tokenize(texts, truncate=True).to(device)
                     x = self.token_embedding(tokens).float()
-                    x = x + self.positional_embedding.float()
+                    x = x + pos_emb
                     x = x.permute(1, 0, 2)
                     x = self.transformer(x)
                     x = x.permute(1, 0, 2)
                     x = self.ln_final(x).float()
 
                     eos = tokens.argmax(dim=-1)
-                    x = x[torch.arange(x.shape[0]), eos] @ self.text_projection.float()
+                    x = x[torch.arange(x.shape[0]), eos] @ text_proj
                     
-                    all_feats.append(F.normalize(x, dim=-1))
+                    # 4. 计算完毕后一定要 .cpu() 移回内存，防止缓存大图谱时爆显存
+                    all_feats.append(F.normalize(x, dim=-1).cpu())
 
                 H0 = torch.cat(all_feats, dim=0)
                 torch.save(H0, cache_path)
-                print(f"\n[Graph] Rank 0 图特征保存完成！")
+                print(f"\n[Graph] Rank 0 图特征 (GPU加速) 保存完成！")
             else:
                 print(f"[Graph] 发现已存在的图特征缓存: {cache_path}")
 
@@ -129,7 +139,7 @@ class CLIPSoftPromptGraph(CLIPSoftPrompt):
         if dist.is_available() and dist.is_initialized():
             dist.barrier()
 
-        # 所有进程同步加载，保证 buffer 完美注册
+        # 所有进程同步加载，保证 buffer 完美注册 (强制加载到 cpu，稍后外部 model.to(device) 会自动搬运)
         H0 = torch.load(cache_path, map_location='cpu')
         self.register_buffer('node_feats_init', H0)
         
@@ -292,7 +302,10 @@ class CLIPSoftPromptGraph(CLIPSoftPrompt):
 
         w_neigh = getattr(self.cfg.MODEL, 'w_loss_neigh', 0.0)
         if w_neigh > 0.0:
-            neigh_loss = self._compute_neigh_smooth_loss(H)
+            # 修改：传入生成的文本特征 (t_a, t_o, t_c) 和当前批次索引 (a_idx, o_idx, p_idx_tr)
+            neigh_loss = self._compute_paper_neigh_smooth_loss(
+                H, t_a, t_o, t_c, a_idx, o_idx, p_idx_tr
+            )
             loss = loss + w_neigh * neigh_loss
 
         return {
@@ -300,37 +313,74 @@ class CLIPSoftPromptGraph(CLIPSoftPrompt):
             'acc_pair':   (logits_c.argmax(1) == p_idx_tr).float().mean(),
         }
 
-    def _compute_neigh_smooth_loss(self, H):
-        gb     = self.graph_builder
-        target = torch.tensor(0.7, device=H.device)
-        loss   = torch.tensor(0.0, device=H.device)
-        count  = 0
-
-        for a, words in gb.attr_neighbors.items():
-            if a not in gb.attr2id:
-                continue
-            h_seen = H[gb.attr2id[a]]
-            for w in words:
-                if w in gb.neigh_attr2id:
-                    h_neigh = H[gb.neigh_attr2id[w]]
-                    sim = F.cosine_similarity(h_seen.unsqueeze(0),
-                                             h_neigh.unsqueeze(0))
-                    loss  = loss + (sim - target).pow(2)
-                    count += 1
-
-        for o, words in gb.obj_neighbors.items():
-            if o not in gb.obj2id:
-                continue
-            h_seen = H[gb.obj2id[o]]
-            for w in words:
-                if w in gb.neigh_obj2id:
-                    h_neigh = H[gb.neigh_obj2id[w]]
-                    sim = F.cosine_similarity(h_seen.unsqueeze(0),
-                                             h_neigh.unsqueeze(0))
-                    loss  = loss + (sim - target).pow(2)
-                    count += 1
-
-        return loss / max(count, 1)
+    def _compute_paper_neigh_smooth_loss(self, H, t_a_all, t_o_all, t_c_all, a_idx_batch, o_idx_batch, p_idx_batch):
+        """
+        严格遵循论文公式 (4-15), (4-16), (4-17) 的邻域对齐损失实现。
+        """
+        gb = self.graph_builder
+        # H0 是最初使用冻结 CLIP 提取的零样本语义特征，用于计算平滑权重 w
+        H0 = self.node_feats_init 
+        
+        loss_a = torch.tensor(0.0, device=H.device)
+        loss_o = torch.tensor(0.0, device=H.device)
+        loss_c = torch.tensor(0.0, device=H.device)
+        
+        batch_size = len(a_idx_batch)
+        
+        for i in range(batch_size):
+            # ================= 1. 属性分支 (对应公式 4-16) =================
+            a_id_local = a_idx_batch[i].item()
+            a_name = gb.seen_attrs[a_id_local]
+            a_node_id = gb.attr2id[a_name]
+            t_a = t_a_all[a_id_local]  # 已见概念的软提示特征
+            
+            if a_name in gb.attr_neighbors:
+                for w in gb.attr_neighbors[a_name]:
+                    if w in gb.neigh_attr2id:
+                        n_node_id = gb.neigh_attr2id[w]
+                        # 计算基础文本相似度作为平滑权重 w (点积即余弦，因为 H0 已作 L2 归一化)
+                        w_sim = torch.dot(H0[a_node_id], H0[n_node_id]).detach()
+                        w_sim = torch.clamp(w_sim, min=0.0)  # 滤除极少数的负相关噪声
+                        
+                        # 异构图中结构化的邻域节点特征 (进行 L2 归一化以匹配 t_a 的尺度)
+                        t_n = F.normalize(H[n_node_id], dim=0) 
+                        # MSE 距离：|| t_a - t_n ||_2^2
+                        loss_a = loss_a + w_sim * torch.sum((t_a - t_n) ** 2)
+                        
+            # ================= 2. 物体分支 (对应公式 4-17) =================
+            o_id_local = o_idx_batch[i].item()
+            o_name = gb.seen_objs[o_id_local]
+            o_node_id = gb.obj2id[o_name]
+            t_o = t_o_all[o_id_local]
+            
+            if o_name in gb.obj_neighbors:
+                for w in gb.obj_neighbors[o_name]:
+                    if w in gb.neigh_obj2id:
+                        n_node_id = gb.neigh_obj2id[w]
+                        w_sim = torch.dot(H0[o_node_id], H0[n_node_id]).detach()
+                        w_sim = torch.clamp(w_sim, min=0.0)
+                        
+                        t_n = F.normalize(H[n_node_id], dim=0)
+                        loss_o = loss_o + w_sim * torch.sum((t_o - t_n) ** 2)
+                        
+            # ================= 3. 组合分支 (对应公式 4-15) =================
+            p_id_local = p_idx_batch[i].item()
+            c_name_tuple = gb.seen_comps[p_id_local]
+            c_node_id = gb.comp2id[c_name_tuple]
+            t_c = t_c_all[p_id_local]
+            
+            if c_name_tuple in gb.comp_neighbors:
+                for ph in gb.comp_neighbors[c_name_tuple]:
+                    if ph in gb.neigh_comp2id:
+                        n_node_id = gb.neigh_comp2id[ph]
+                        w_sim = torch.dot(H0[c_node_id], H0[n_node_id]).detach()
+                        w_sim = torch.clamp(w_sim, min=0.0)
+                        
+                        t_n = F.normalize(H[n_node_id], dim=0)
+                        loss_c = loss_c + w_sim * torch.sum((t_c - t_n) ** 2)
+                        
+        # 批次内求平均并相加 (对应公式 4-18：L_nel = L_nel^a + L_nel^o + L_nel^c)
+        return (loss_a + loss_o + loss_c) / batch_size
 
     @torch.no_grad()
     def _precompute_test_feats(self):

@@ -26,8 +26,8 @@ MODEL:
 
   # ── LLM 邻域开关 ─────────────────────────────────
   use_llm_nel:    False
-  llm_nel_dir:    '/home/bingxing2/home/scx6d4e/run/xuanzhenzhen/ov-czsl/llm_nel_gen/mit-states_neighbors'
-  max_neighbors:  5
+  llm_nel_dir:    '/home/bingxing2/home/scx6d4e/run/xuanzhenzhen/ov-graph/llm_nel_gen/mit-states_neighbors'
+  max_neighbors:  3
 
   # ── 损失权重 ──────────────────────────────────────
   w_loss_attr:    0.3
