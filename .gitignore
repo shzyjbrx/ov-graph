@@ -5,3 +5,4 @@ tensorboards/
 __pycache__/
 *.pyc
 vis/
+*.pt
