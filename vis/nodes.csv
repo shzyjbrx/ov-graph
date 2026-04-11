@@ -1,0 +1,10 @@
+nodeId,name,type,status
+1,sliced,Attribute,Seen
+2,diced,Attribute,Neighborhood
+3,chopped,Attribute,Neighborhood
+4,apple,Object,Seen
+5,pear,Object,Neighborhood
+6,peach,Object,Neighborhood
+7,sliced apple,Composition,Seen
+8,sliced pear,Composition,Neighborhood
+9,diced apple,Composition,Neighborhood
