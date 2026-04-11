@@ -48,15 +48,15 @@ python train.py --cfg ${CONFIG} \
     TRAIN.max_epoch            20                               \
     MODEL.n_ctx                16                               \
     MODEL.n_meta_ctx           4                                \
-    MODEL.graph_dim            128                              \
+    MODEL.graph_dim            256                              \
     MODEL.graph_layers         2                                \
     MODEL.graph_dropout        0.4                              \
     MODEL.w_loss_attr          0.3                              \
     MODEL.w_loss_obj           0.3                              \
     MODEL.w_loss_neigh         0.1                              \
-    MODEL.use_llm_nel          False                             \
+    MODEL.use_llm_nel          True                             \
     MODEL.llm_nel_dir          ${LLM_DIR}                       \
-    MODEL.max_neighbors        2
+    MODEL.max_neighbors        3
 
 echo "  训练完成"
 echo "=========================================================="

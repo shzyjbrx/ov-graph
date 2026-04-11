@@ -1,0 +1,1863 @@
+{
+  "aluminum": [
+    "metal",
+    "material",
+    "copper",
+    "steel",
+    "plastic",
+    "glass"
+  ],
+  "animal": [
+    "mammal",
+    "creature",
+    "dog",
+    "cat",
+    "sheep",
+    "horse"
+  ],
+  "apple": [
+    "fruit",
+    "food",
+    "banana",
+    "orange",
+    "pear",
+    "grape"
+  ],
+  "armor": [
+    "gear",
+    "protection",
+    "helmet",
+    "shield",
+    "plate",
+    "cuirass"
+  ],
+  "bag": [
+    "pouch",
+    "container",
+    "backpack",
+    "purse",
+    "clutch",
+    "satchel"
+  ],
+  "ball": [
+    "toy",
+    "sphere",
+    "bouncy ball",
+    "tennis ball",
+    "baseball",
+    "golf ball"
+  ],
+  "balloon": [
+    "object",
+    "recreation",
+    "toy",
+    "inflatable"
+  ],
+  "banana": [
+    "fruit",
+    "food",
+    "apple",
+    "orange",
+    "grape",
+    "pear"
+  ],
+  "basement": [
+    "building",
+    "garage",
+    "kitchen"
+  ],
+  "basket": [
+    "container",
+    "bag",
+    "pail",
+    "hamper",
+    "net"
+  ],
+  "bathroom": [
+    "room",
+    "building space",
+    "kitchen",
+    "bathroom",
+    "laundry room",
+    "toilet"
+  ],
+  "bay": [
+    "harbor",
+    "waterfront",
+    "cove",
+    "inlet",
+    "estuary",
+    "gulf"
+  ],
+  "beach": [
+    "coast",
+    "resort",
+    "ocean",
+    "sand",
+    "umbrella",
+    "surfboard"
+  ],
+  "bean": [
+    "seed",
+    "food",
+    "pea",
+    "lentil",
+    "chickpea",
+    "soybean"
+  ],
+  "bear": [
+    "animal",
+    "mammal",
+    "panda",
+    "koala",
+    "wolf",
+    "grizzly"
+  ],
+  "bed": [
+    "furniture",
+    "sleeping place",
+    "sofa",
+    "couch",
+    "mattress",
+    "cot"
+  ],
+  "beef": [
+    "meat",
+    "food",
+    "pork",
+    "chicken",
+    "lamb",
+    "fish"
+  ],
+  "belt": [
+    "accessory",
+    "clothing",
+    "bracelet",
+    "watch",
+    "scarf",
+    "hat"
+  ],
+  "berry": [
+    "fruit",
+    "apple",
+    "grape",
+    "str",
+    "berry"
+  ],
+  "bike": [
+    "vehicle",
+    "recreation",
+    "car",
+    "motorcycle",
+    "skateboard",
+    "bicycle"
+  ],
+  "blade": [
+    "weapon",
+    "tool",
+    "sword",
+    "scythe",
+    "chisel",
+    "fork"
+  ],
+  "boat": [
+    "watercraft",
+    "vessel",
+    "canoe",
+    "sailboat",
+    "yacht",
+    "rowing boat"
+  ],
+  "book": [
+    "paperback",
+    "textbook",
+    "notebook",
+    "magazine",
+    "calendar",
+    "ledger"
+  ],
+  "bottle": [
+    "container",
+    "vessel",
+    "glass",
+    "jug",
+    "bowl",
+    "can"
+  ],
+  "boulder": [
+    "rock",
+    "stone",
+    "pebble",
+    "gravel",
+    "sandstone",
+    "granite"
+  ],
+  "bowl": [
+    "dish",
+    "container",
+    "plate",
+    "cup",
+    "bottle",
+    "jar"
+  ],
+  "box": [
+    "container",
+    "package",
+    "crate",
+    "trunk",
+    "drawer",
+    "case"
+  ],
+  "bracelet": [
+    "jewelry",
+    "accessory",
+    "necklace",
+    "ring",
+    "bracelet",
+    "earring"
+  ],
+  "branch": [
+    "stem",
+    "part",
+    "leaf",
+    "root",
+    "fruit",
+    "flower"
+  ],
+  "brass": [
+    "metal",
+    "instrument",
+    "copper",
+    "bronze",
+    "tin",
+    "zinc"
+  ],
+  "bread": [
+    "food",
+    "cake",
+    "pasta",
+    "rice"
+  ],
+  "bridge": [
+    "structure",
+    "construction",
+    "tunnel",
+    "dam",
+    "road",
+    "walkway"
+  ],
+  "bronze": [
+    "metal",
+    "statue",
+    "copper",
+    "silver",
+    "gold",
+    "statue"
+  ],
+  "bubble": [
+    "[FAILED]"
+  ],
+  "bucket": [
+    "container",
+    "storage",
+    "pail",
+    "jug",
+    "vat",
+    "tub"
+  ],
+  "building": [
+    "structure",
+    "edifice",
+    "house",
+    "skyscraper",
+    "bridge",
+    "monument"
+  ],
+  "bus": [
+    "vehicle",
+    "car",
+    "train",
+    "bike",
+    "subway"
+  ],
+  "bush": [
+    "tree",
+    "plant",
+    "hedge",
+    "bushy tree",
+    "shrub",
+    "foliage"
+  ],
+  "butter": [
+    "food",
+    "spread",
+    "cheese",
+    "oil",
+    "sauce",
+    "cream"
+  ],
+  "cabinet": [
+    "furniture",
+    "chair",
+    "table",
+    "bed",
+    "bookshelf"
+  ],
+  "cable": [
+    "object",
+    "wire",
+    "cord",
+    "string",
+    "rope",
+    "chain"
+  ],
+  "cake": [
+    "dessert",
+    "food",
+    "pie",
+    "brownie",
+    "cookie",
+    "cupcake"
+  ],
+  "camera": [
+    "device",
+    "electronic",
+    "phone",
+    "tablet",
+    "monitor",
+    "projector"
+  ],
+  "candle": [
+    "lighting",
+    "candlestick",
+    "wick",
+    "flame",
+    "taper",
+    "pillar"
+  ],
+  "candy": [
+    "food",
+    "sweets",
+    "chocolate",
+    "gum",
+    "lollipop"
+  ],
+  "canyon": [
+    "val canyon",
+    "landform",
+    "mountain",
+    "valley",
+    "cliff",
+    "river"
+  ],
+  "car": [
+    "vehicle",
+    "truck",
+    "motorcycle",
+    "bus",
+    "suv"
+  ],
+  "card": [
+    "[FAILED]"
+  ],
+  "carpet": [
+    "textile",
+    "rug",
+    "mat",
+    "towel",
+    "blanket"
+  ],
+  "castle": [
+    "fortress",
+    "building",
+    "tower",
+    "keep",
+    "palace",
+    "ruins"
+  ],
+  "cat": [
+    "mammal",
+    "pet",
+    "dog",
+    "kitten",
+    "puppy",
+    "feline"
+  ],
+  "cave": [
+    "entrance",
+    "canyon",
+    "cliff",
+    "cavern"
+  ],
+  "ceiling": [
+    "room",
+    "building",
+    "wall",
+    "floor",
+    "window",
+    "door"
+  ],
+  "ceramic": [
+    "pottery",
+    "vase",
+    "china",
+    "porcelain",
+    "earthenware",
+    "stoneware"
+  ],
+  "chains": [
+    "accessory",
+    "tool",
+    "rope",
+    "belt",
+    "strap",
+    "cable"
+  ],
+  "chair": [
+    "furniture",
+    "seating",
+    "sofa",
+    "table",
+    "stool",
+    "bench"
+  ],
+  "cheese": [
+    "food",
+    "milk",
+    "bread",
+    "meat",
+    "vegetable"
+  ],
+  "chicken": [
+    "bird",
+    "food",
+    "duck",
+    "turkey",
+    "beef",
+    "pork"
+  ],
+  "chocolate": [
+    "food",
+    "sweet",
+    "candy",
+    "cookie",
+    "cake",
+    "pudding"
+  ],
+  "church": [
+    "building",
+    "place of worship",
+    "mosque",
+    "temple",
+    "cathedral",
+    "synagogue"
+  ],
+  "city": [
+    "settlement",
+    "village",
+    "town",
+    "suburb",
+    "borough"
+  ],
+  "clay": [
+    "pottery",
+    "soil",
+    "pot",
+    "earthenware",
+    "ceramic",
+    "stoneware"
+  ],
+  "cliff": [
+    "landform",
+    "mountain",
+    "val",
+    "coastline"
+  ],
+  "clock": [
+    "object",
+    "timepiece",
+    "watch",
+    "alarm",
+    "pendulum"
+  ],
+  "clothes": [
+    "garment",
+    "shoes",
+    "hat",
+    "shirt",
+    "pants"
+  ],
+  "cloud": [
+    "weather",
+    "rain",
+    "snow",
+    "sun",
+    "moon"
+  ],
+  "coal": [
+    "mineral",
+    "fuel",
+    "oil",
+    "uranium",
+    "petroleum"
+  ],
+  "coast": [
+    "shoreline",
+    "beach",
+    "island",
+    "harbor",
+    "reef"
+  ],
+  "coat": [
+    "clothing",
+    "outerwear",
+    "shirt",
+    "jacket",
+    "blouse",
+    "sweater"
+  ],
+  "coffee": [
+    "beverage",
+    "drink",
+    "tea",
+    "milk",
+    "juice",
+    "water"
+  ],
+  "coin": [
+    "currency",
+    "token",
+    "jewelry",
+    "key"
+  ],
+  "column": [
+    "structure",
+    "object",
+    "pillar",
+    "beam",
+    "wall",
+    "pole"
+  ],
+  "computer": [
+    "laptop",
+    "tablet",
+    "smartphone",
+    "printer"
+  ],
+  "concrete": [
+    "material",
+    "substance",
+    "stone",
+    "brick",
+    "wood",
+    "metal"
+  ],
+  "cookie": [
+    "food",
+    "snack",
+    "cake",
+    "biscuit",
+    "chocolate",
+    "pie"
+  ],
+  "copper": [
+    "metal",
+    "element",
+    "silver",
+    "gold",
+    "bronze",
+    "tin"
+  ],
+  "cord": [
+    "string",
+    "object",
+    "rope",
+    "thread",
+    "chain",
+    "wire"
+  ],
+  "cotton": [
+    "fiber",
+    "silk",
+    "wool",
+    "linen",
+    "hrayon"
+  ],
+  "creek": [
+    "stream",
+    "watercourse",
+    "river",
+    "brook",
+    "pond",
+    "lagoon"
+  ],
+  "deck": [
+    "[FAILED]"
+  ],
+  "desert": [
+    "landscape",
+    "sand",
+    "beach",
+    "dsand dune",
+    "arid land",
+    "sandy area"
+  ],
+  "desk": [
+    "furniture",
+    "table",
+    "chair",
+    "bookshelf",
+    "cabinet",
+    "lamp"
+  ],
+  "diamond": [
+    "jewelry",
+    "emerald",
+    "ruby",
+    "sapphire",
+    "topaz"
+  ],
+  "dirt": [
+    "soil",
+    "material",
+    "sand",
+    "gravel",
+    "mud",
+    "clay"
+  ],
+  "dog": [
+    "animal",
+    "mammal",
+    "cat",
+    "rabbit",
+    "sheep",
+    "wolf"
+  ],
+  "door": [
+    "object",
+    "structure",
+    "window",
+    "doorbell",
+    "lock",
+    "handle"
+  ],
+  "dress": [
+    "clothing",
+    "garment",
+    "shirt",
+    "skirt",
+    "blouse",
+    "tunic"
+  ],
+  "drum": [
+    "percussion",
+    "cylinder",
+    "tambourine",
+    "bass drum",
+    "snare drum",
+    "tom-tom"
+  ],
+  "dust": [
+    "particle",
+    "smoke",
+    "fiber",
+    "pollen",
+    "hair"
+  ],
+  "eggs": [
+    "food",
+    "ingredient",
+    "bread",
+    "meat",
+    "vegetables",
+    "fruits"
+  ],
+  "elephant": [
+    "mammal",
+    "land animal",
+    "rhinoceros",
+    "giraffe",
+    "hippopotamus",
+    "zebra"
+  ],
+  "envelope": [
+    "letter",
+    "package",
+    "card",
+    "box",
+    "bag",
+    "folder"
+  ],
+  "fabric": [
+    "textile",
+    "material",
+    "cloth",
+    "thread",
+    "yarn",
+    "shirt"
+  ],
+  "fan": [
+    "appliance",
+    "air mover",
+    "blower",
+    "extractor",
+    "ventilator",
+    "propeller"
+  ],
+  "farm": [
+    "agricultural land",
+    "rural area",
+    "field",
+    "orchard",
+    "pasture",
+    "farmhouse"
+  ],
+  "fence": [
+    "structure",
+    "wall",
+    "gate",
+    "garden",
+    "yard"
+  ],
+  "field": [
+    "land",
+    "area",
+    "lawn",
+    "pasture",
+    "meadow",
+    "plot"
+  ],
+  "fig": [
+    "shape",
+    "object",
+    "circle",
+    "triangle",
+    "square",
+    "star"
+  ],
+  "fire": [
+    "light",
+    "element",
+    "heat",
+    "smoke",
+    "flame"
+  ],
+  "fish": [
+    "animal",
+    "rodent",
+    "rat",
+    "mole",
+    "squirrel",
+    "chipmunk"
+  ],
+  "flame": [
+    "light",
+    "fire",
+    "spark",
+    "smoke",
+    "embers",
+    "heat"
+  ],
+  "floor": [
+    "surface",
+    "structure",
+    "wall",
+    "ceiling",
+    "door",
+    "window"
+  ],
+  "flower": [
+    "plant",
+    "bloom",
+    "rose",
+    "tulip",
+    "dern",
+    "lily"
+  ],
+  "foam": [
+    "material",
+    "cushioning",
+    "sponge",
+    "pillow",
+    "pad",
+    "cushion"
+  ],
+  "forest": [
+    "nature",
+    "woodland",
+    "jungle",
+    "grove",
+    "copse",
+    "bush"
+  ],
+  "frame": [
+    "border",
+    "structure",
+    "door",
+    "window",
+    "wall",
+    "picture"
+  ],
+  "fruit": [
+    "food",
+    "plant",
+    "vegetable",
+    "berry",
+    "citrus",
+    "apple"
+  ],
+  "furniture": [
+    "chair",
+    "table",
+    "sofa",
+    "bed",
+    "couch",
+    "armchair"
+  ],
+  "garage": [
+    "building",
+    "structure",
+    "shed",
+    "barnouse",
+    "carport",
+    "barn"
+  ],
+  "garden": [
+    "yard",
+    "outdoor space",
+    "park",
+    "flowerbed",
+    "lawn"
+  ],
+  "garlic": [
+    "vegetable",
+    "food",
+    "onion",
+    "shallot",
+    "chive",
+    "lear"
+  ],
+  "gate": [
+    "door",
+    "entrance",
+    "fence",
+    "wall",
+    "awning",
+    "awning door"
+  ],
+  "gear": [
+    "wheel",
+    "sprocket",
+    "cog",
+    "pinion"
+  ],
+  "gemstone": [
+    "rock",
+    "mineral",
+    "diamond",
+    "ruby",
+    "emerald",
+    "sapphire"
+  ],
+  "glass": [
+    "bottle",
+    "container",
+    "tumbler",
+    "jug",
+    "beaker",
+    "flask"
+  ],
+  "glasses": [
+    "eyewear",
+    "lens",
+    "contact lenses",
+    "sunglasses",
+    "reading glasses",
+    "prescription glasses"
+  ],
+  "granite": [
+    "rock",
+    "marble",
+    "basalt",
+    "sandstone",
+    "limestone"
+  ],
+  "ground": [
+    "surface",
+    "earth",
+    "floor",
+    "road",
+    "pavement",
+    "terrain"
+  ],
+  "handle": [
+    "object",
+    "tool",
+    "lever",
+    "spoon",
+    "cup",
+    "key"
+  ],
+  "hat": [
+    "headwear",
+    "accessory",
+    "cap",
+    "scarf",
+    "visor",
+    "beanie"
+  ],
+  "highway": [
+    "road",
+    "transportation",
+    "bridge",
+    "tunnel",
+    "intersection",
+    "sign"
+  ],
+  "horse": [
+    "animal",
+    "equine",
+    "mare",
+    "stallion",
+    "pony",
+    "zebra"
+  ],
+  "hose": [
+    "pipe",
+    "tool",
+    "broom",
+    "shovel",
+    "rake",
+    "bucket"
+  ],
+  "house": [
+    "building",
+    "residence",
+    "bungalow",
+    "cottage",
+    "mansion",
+    "townhouse"
+  ],
+  "ice": [
+    "water",
+    "solid",
+    "snow",
+    "frost",
+    "hail",
+    "glacier"
+  ],
+  "iguana": [
+    "lizard",
+    "reptile",
+    "gecko",
+    "chameleon",
+    "monitor lizard",
+    "skink"
+  ],
+  "island": [
+    "landmass",
+    "geography",
+    "beach",
+    "shoal",
+    "reef",
+    "peninsula"
+  ],
+  "jacket": [
+    "clothing",
+    "shirt",
+    "blouse",
+    "sweater"
+  ],
+  "jewelry": [
+    "accessories",
+    "ornaments",
+    "necklace",
+    "bracelet",
+    "ring",
+    "earring"
+  ],
+  "jungle": [
+    "forest",
+    "wilderness",
+    "rainforest",
+    "savannah",
+    "taiga",
+    "bush"
+  ],
+  "key": [
+    "lock",
+    "device",
+    "padlock",
+    "keychain",
+    "ignition key",
+    "house key"
+  ],
+  "keyboard": [
+    "device",
+    "object",
+    "mouse",
+    "monitor",
+    "printer",
+    "speaker"
+  ],
+  "kitchen": [
+    "room",
+    "building",
+    "bathroom",
+    "living room",
+    "bedroom"
+  ],
+  "knife": [
+    "cutlery",
+    "weapon",
+    "fork",
+    "scissors",
+    "chisel",
+    "sword"
+  ],
+  "lake": [
+    "river",
+    "ocean",
+    "pond",
+    "stream"
+  ],
+  "laptop": [
+    "computer",
+    "desktop",
+    "tablet",
+    "smartphone",
+    "notebook"
+  ],
+  "lead": [
+    "metal",
+    "substance",
+    "tin",
+    "copper",
+    "silver",
+    "gold"
+  ],
+  "leaf": [
+    "petal",
+    "stem",
+    "branch",
+    "seed"
+  ],
+  "lemon": [
+    "fruit",
+    "citrus",
+    "orange",
+    "grape",
+    "apple",
+    "banana"
+  ],
+  "library": [
+    "building",
+    "room",
+    "school",
+    "museum",
+    "office",
+    "store"
+  ],
+  "lightbulb": [
+    "lamp",
+    "illumination",
+    "led bulb",
+    "incandescent bulb",
+    "fluorescent tube",
+    "halogen bulb"
+  ],
+  "lightning": [
+    "thunder",
+    "storm",
+    "fire"
+  ],
+  "log": [
+    "tree trunk",
+    "wood",
+    "bark",
+    "trunk",
+    "cylinder",
+    "pillar"
+  ],
+  "mat": [
+    "surface",
+    "material",
+    "cloth",
+    "paper",
+    "metal",
+    "wood"
+  ],
+  "meat": [
+    "food",
+    "chicken",
+    "beef",
+    "pork",
+    "fish"
+  ],
+  "metal": [
+    "material",
+    "object",
+    "plastic",
+    "wood",
+    "glass",
+    "stone"
+  ],
+  "milk": [
+    "liquid",
+    "food",
+    "water",
+    "juice",
+    "milkshake",
+    "cheese"
+  ],
+  "mirror": [
+    "reflection surface",
+    "decorative item",
+    "window",
+    "glass",
+    "plate",
+    "photo"
+  ],
+  "moss": [
+    "plant",
+    "lichen",
+    "fern",
+    "alga",
+    "fungus",
+    "liverwort"
+  ],
+  "mountain": [
+    "landform",
+    "hill",
+    "val",
+    "volcano"
+  ],
+  "mud": [
+    "soil",
+    "sediment",
+    "sand",
+    "rock",
+    "water",
+    "grass"
+  ],
+  "necklace": [
+    "jewelry",
+    "accessory",
+    "bracelet",
+    "ring",
+    "earring"
+  ],
+  "nest": [
+    "birdhouse",
+    "hive",
+    "den"
+  ],
+  "newspaper": [
+    "periodical",
+    "magazine",
+    "book",
+    "newnspaper",
+    "poster"
+  ],
+  "nut": [
+    "bolt",
+    "fastener",
+    "bolt",
+    "screw",
+    "washer",
+    "rivet"
+  ],
+  "ocean": [
+    "sea",
+    "water",
+    "wave",
+    "shoreline",
+    "horizon",
+    "tide"
+  ],
+  "oil": [
+    "fuel",
+    "liquid",
+    "gasoline",
+    "water"
+  ],
+  "orange": [
+    "fruit",
+    "citrus",
+    "apple",
+    "leemon",
+    "grape",
+    "banana"
+  ],
+  "paint": [
+    "art",
+    "material",
+    "color",
+    "brush",
+    "canvas",
+    "palette"
+  ],
+  "palm": [
+    "hand",
+    "limb",
+    "palm of hand",
+    "paw",
+    "sole",
+    "back of hand"
+  ],
+  "pants": [
+    "clothing",
+    "garment",
+    "shirt",
+    "dress",
+    "jeans",
+    "skirt"
+  ],
+  "paper": [
+    "object",
+    "book",
+    "notebook"
+  ],
+  "pasta": [
+    "food",
+    "cuisine",
+    "rice",
+    "noodles",
+    "bread",
+    "vegetables"
+  ],
+  "paste": [
+    "adhesive",
+    "sticker",
+    "label",
+    "decal",
+    "seal",
+    "tag"
+  ],
+  "pear": [
+    "fruit",
+    "food",
+    "apple",
+    "orange",
+    "banana",
+    "grape"
+  ],
+  "penny": [
+    "coin",
+    "currency",
+    "nickel",
+    "d dime",
+    "quarter",
+    "loonie"
+  ],
+  "persimmon": [
+    "fruit",
+    "berry",
+    "apple",
+    "orange",
+    "grape",
+    "plum"
+  ],
+  "phone": [
+    "electronic device",
+    "communication tool",
+    "smartphone",
+    "tablet",
+    "watch",
+    "laptop"
+  ],
+  "pie": [
+    "dessert",
+    "baked good",
+    "tartert",
+    "cake",
+    "croissant",
+    "scone"
+  ],
+  "pizza": [
+    "food",
+    "meal",
+    "pasta",
+    "burger",
+    "taco",
+    "sandwich"
+  ],
+  "plant": [
+    "flower",
+    "tree",
+    "bush",
+    "cactus",
+    "fern",
+    "ivy"
+  ],
+  "plastic": [
+    "material",
+    "container",
+    "foil",
+    "cork",
+    "cardboard",
+    "glass"
+  ],
+  "plate": [
+    "dish",
+    "utensil",
+    "bowl",
+    "tray",
+    "dish",
+    "platter"
+  ],
+  "pond": [
+    "lake",
+    "river",
+    "stream",
+    "ocean"
+  ],
+  "pool": [
+    "body of water",
+    "outdoor structure",
+    "lake",
+    "sea",
+    "swimming hole",
+    "spa"
+  ],
+  "pot": [
+    "container",
+    "vessel",
+    "pan",
+    "bowl",
+    "jar",
+    "cup"
+  ],
+  "potato": [
+    "vegetable",
+    "root vegetable",
+    "spud",
+    "tater",
+    "pomme de terre",
+    "rutabaga"
+  ],
+  "redwood": [
+    "tree",
+    "plant",
+    "pine",
+    "oak",
+    "maple",
+    "birch"
+  ],
+  "ribbon": [
+    "tapestry",
+    "bow",
+    "lace",
+    "tassel",
+    "fringe"
+  ],
+  "ring": [
+    "jewelry",
+    "accessory",
+    "bracelet",
+    "necklace",
+    "earring",
+    "bangle"
+  ],
+  "river": [
+    "stream",
+    "watercourse",
+    "lake",
+    "ocean",
+    "pond",
+    "creek"
+  ],
+  "road": [
+    "highway",
+    "street",
+    "bridge",
+    "intersection",
+    "sidewalk"
+  ],
+  "rock": [
+    "stone",
+    "boulder",
+    "pebble",
+    "gravel",
+    "cobblestone",
+    "ledge"
+  ],
+  "roof": [
+    "building",
+    "structure",
+    "shingle",
+    "tile",
+    "flat",
+    "gable"
+  ],
+  "room": [
+    "space",
+    "building",
+    "bedroom",
+    "kitchen",
+    "bathroom"
+  ],
+  "roots": [
+    "organ",
+    "stem",
+    "leaf",
+    "bud",
+    "flower"
+  ],
+  "rope": [
+    "string",
+    "tether",
+    "cord",
+    "strap",
+    "belt",
+    "chain"
+  ],
+  "rubber": [
+    "object",
+    "material",
+    "pen",
+    "eraser",
+    "ball",
+    "sock"
+  ],
+  "salad": [
+    "vegetable dish",
+    "meal component",
+    "greens",
+    "lettuce mix",
+    "mixed vegetables",
+    "fruit salad"
+  ],
+  "salmon": [
+    "fish",
+    "seafood",
+    "trout",
+    "tuna",
+    "mackerel",
+    "cod"
+  ],
+  "sand": [
+    "soil",
+    "material",
+    "gravel",
+    "dust",
+    "silt"
+  ],
+  "sandwich": [
+    "meal",
+    "food",
+    "burger",
+    "wrap",
+    "pizza",
+    "salad"
+  ],
+  "sauce": [
+    "condiment",
+    "liquid",
+    "ketchup",
+    "vinegar",
+    "oil",
+    "syrup"
+  ],
+  "screw": [
+    "fastener",
+    "hardware",
+    "bolt",
+    "nut",
+    "pin",
+    "rivet"
+  ],
+  "sea": [
+    "lake",
+    "ocean",
+    "river",
+    "bay"
+  ],
+  "seafood": [
+    "food",
+    "meal",
+    "fish",
+    "shellfish",
+    "sea vegetables",
+    "ocean products"
+  ],
+  "shell": [
+    "fruit",
+    "object",
+    "nut",
+    "pod",
+    "seed",
+    "egg"
+  ],
+  "shirt": [
+    "clothing",
+    "top",
+    "t-shirt",
+    "blouse",
+    "sweater",
+    "vest"
+  ],
+  "shoes": [
+    "footwear",
+    "clothing",
+    "socks",
+    "boots",
+    "sandals",
+    "slippers"
+  ],
+  "shore": [
+    "beach",
+    "waterfront",
+    "sand",
+    "rocks",
+    "waves",
+    "plants"
+  ],
+  "shorts": [
+    "pants",
+    "clothing",
+    "jeans",
+    "trousers",
+    "skirt",
+    "tights"
+  ],
+  "shower": [
+    "bathroom fixture",
+    "water-carrying appliance",
+    "sink",
+    "bathtub",
+    "tub",
+    "faucet"
+  ],
+  "silk": [
+    "fabric",
+    "thread",
+    "cotton",
+    "satin",
+    "silk ribbon",
+    "silk thread"
+  ],
+  "sky": [
+    "atmosphere",
+    "weather",
+    "clouds",
+    "sun",
+    "moon",
+    "stars"
+  ],
+  "smoke": [
+    "mist",
+    "puff",
+    "fire",
+    "cloud",
+    "steam",
+    "ash"
+  ],
+  "snake": [
+    "reptile",
+    "crawling animal",
+    "snake",
+    "worm",
+    "eel",
+    "lizard"
+  ],
+  "snow": [
+    "ice",
+    "weather",
+    "rain",
+    "frost",
+    "hail",
+    "snowflake"
+  ],
+  "soup": [
+    "meal",
+    "liquid",
+    "stew",
+    "chowder",
+    "goulash",
+    "consomme"
+  ],
+  "steel": [
+    "metal",
+    "material",
+    "iron",
+    "aluminum",
+    "copper",
+    "tin"
+  ],
+  "steps": [
+    "motion",
+    "action",
+    "walk",
+    "run",
+    "jump",
+    "climb"
+  ],
+  "stone": [
+    "rock",
+    "mineral",
+    "sand",
+    "clay",
+    "gravel",
+    "gemstone"
+  ],
+  "stream": [
+    "river",
+    "watercourse",
+    "brook",
+    "creek",
+    "ravine",
+    "channel"
+  ],
+  "street": [
+    "road",
+    "thoroughfare",
+    "pavement",
+    "sidewalk",
+    "lane",
+    "boulevard"
+  ],
+  "sugar": [
+    "sweetener",
+    "food",
+    "salt",
+    "sugar",
+    "flour"
+  ],
+  "sword": [
+    "weapon",
+    "blade",
+    "katana",
+    "saber",
+    "katapult",
+    "scimitar"
+  ],
+  "table": [
+    "furniture",
+    "chair",
+    "desk",
+    "bed",
+    "sofa"
+  ],
+  "tea": [
+    "beverage",
+    "coffee",
+    "milk",
+    "soda",
+    "juice"
+  ],
+  "thread": [
+    "fiber",
+    "stitch",
+    "yarn",
+    "floss",
+    "string",
+    "rope"
+  ],
+  "tie": [
+    "clothing",
+    "accessory",
+    "shirt",
+    "belt",
+    "scarf",
+    "hat"
+  ],
+  "tiger": [
+    "cat",
+    "big cat",
+    "lion",
+    "leelephant",
+    "giraffe",
+    "hyena"
+  ],
+  "tile": [
+    "object",
+    "flooring",
+    "wallcovering",
+    "paving",
+    "mosaic"
+  ],
+  "tire": [
+    "wheel",
+    "object",
+    "rim"
+  ],
+  "tomato": [
+    "fruit",
+    "vegetable",
+    "pepper",
+    "cucumber",
+    "onion",
+    "lettuce"
+  ],
+  "tower": [
+    "structure",
+    "building",
+    "bridge",
+    "skyscraper",
+    "obelisk",
+    "statue"
+  ],
+  "town": [
+    "city",
+    "village",
+    "hamlet",
+    "settlement",
+    "community",
+    "colony"
+  ],
+  "toy": [
+    "object",
+    "item",
+    "ball",
+    "doll",
+    "car",
+    "block"
+  ],
+  "trail": [
+    "path",
+    "route",
+    "river",
+    "road",
+    "forest"
+  ],
+  "tree": [
+    "plant",
+    "vegetation",
+    "flower",
+    "grass",
+    "bush",
+    "shrub"
+  ],
+  "truck": [
+    "vehicle",
+    "motor vehicle",
+    "semi-trailer truck",
+    "delivery truck",
+    "pickup truck",
+    "cargo truck"
+  ],
+  "tube": [
+    "cylinder",
+    "container",
+    "str",
+    "str",
+    "str",
+    "str"
+  ],
+  "tulip": [
+    "flower",
+    "plant",
+    "rose",
+    "dire",
+    "lily",
+    "peony"
+  ],
+  "vacuum": [
+    "cleaning appliance",
+    "household appliance",
+    "broom",
+    "mop",
+    "vacuum cleaner",
+    "duster"
+  ],
+  "valley": [
+    "landscape",
+    "terrain",
+    "mountain",
+    "plain",
+    "hill",
+    "plateau"
+  ],
+  "vegetable": [
+    "food",
+    "plant",
+    "fruit",
+    "herb",
+    "grain",
+    "seed"
+  ],
+  "velvet": [
+    "fabric",
+    "textile",
+    "silk",
+    "cotton",
+    "le"
+  ],
+  "wall": [
+    "structure",
+    "surface",
+    "floor",
+    "ceiling",
+    "window",
+    "door"
+  ],
+  "water": [
+    "liquid",
+    "beverage",
+    "wine",
+    "beer",
+    "soda",
+    "milk"
+  ],
+  "wave": [
+    "movement",
+    "ripple",
+    "crest",
+    "tide",
+    "current"
+  ],
+  "wax": [
+    "substance",
+    "material",
+    "oil",
+    "plastic",
+    "candle",
+    "resin"
+  ],
+  "well": [
+    "structure",
+    "water source",
+    "spring",
+    "cistern",
+    "reservoir",
+    "pond"
+  ],
+  "wheel": [
+    "part",
+    "component",
+    "tire",
+    "axp",
+    "rim",
+    "spoke"
+  ],
+  "window": [
+    "door",
+    "wall",
+    "balcony",
+    "awning"
+  ],
+  "wire": [
+    "object",
+    "tool",
+    "cable",
+    "string",
+    "rope",
+    "thread"
+  ],
+  "wood": [
+    "material",
+    "stone",
+    "metal",
+    "cloth",
+    "paper"
+  ],
+  "wool": [
+    "fiber",
+    "material",
+    "silk",
+    "cotton",
+    "fur",
+    "cloth"
+  ]
+}

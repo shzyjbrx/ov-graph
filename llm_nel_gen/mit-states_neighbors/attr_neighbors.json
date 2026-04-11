@@ -1,0 +1,805 @@
+{
+  "ancient": [
+    "historic",
+    "old",
+    "antient",
+    "antient-looking",
+    "time-worn"
+  ],
+  "barren": [
+    "deserted",
+    "sterile",
+    "bar",
+    "completely barren",
+    "partially barren"
+  ],
+  "bent": [
+    "curved",
+    "flexible",
+    "crooked",
+    "bent over",
+    "bent backwards"
+  ],
+  "blunt": [
+    "dull",
+    "unsharpened",
+    "flat",
+    "unrefined",
+    "unpolished"
+  ],
+  "bright": [
+    "shiny",
+    "luminous",
+    "glowing",
+    "brilliant",
+    "radiant"
+  ],
+  "broken": [
+    "cracked",
+    "damaged",
+    "fractured",
+    "shattered",
+    "crumbled"
+  ],
+  "browned": [
+    "cooked",
+    "crisped",
+    "golden",
+    "well-browned",
+    "partially-browned"
+  ],
+  "brushed": [
+    "polished",
+    "matte",
+    "textured",
+    "satin",
+    "brushed metal"
+  ],
+  "burnt": [
+    "charred",
+    "smoldered",
+    "blackened",
+    "overcooked",
+    "partially consumed"
+  ],
+  "caramelized": [
+    "golden brown",
+    "sugary toasted",
+    "deep amber",
+    "lightly charred",
+    "partially caramelized"
+  ],
+  "chipped": [
+    "cracked",
+    "flaked",
+    "scuffed",
+    "damaged",
+    "worn"
+  ],
+  "clean": [
+    "spotless",
+    "scrubbed",
+    "bland",
+    "sterile",
+    "sanitary"
+  ],
+  "clear": [
+    "transparent",
+    "see-through",
+    "crystal",
+    "clarity",
+    "translucency"
+  ],
+  "closed": [
+    "closed",
+    "sealed",
+    "enclosed",
+    "tight",
+    "hermeticallyic"
+  ],
+  "cloudy": [
+    "overcast",
+    "misty",
+    "gloomy",
+    "partly cloudy",
+    "mostly cloudy"
+  ],
+  "cluttered": [
+    "messy",
+    "cluttered",
+    "jammed",
+    "overcrowded",
+    "disorganized"
+  ],
+  "coiled": [
+    "wound",
+    "spiraled",
+    "twisted",
+    "curled",
+    "looped"
+  ],
+  "cooked": [
+    "prepared",
+    "baked",
+    "roasted",
+    "grilled",
+    "simmered"
+  ],
+  "cored": [
+    "central",
+    "heart",
+    "hub",
+    "nucleus",
+    "kernel"
+  ],
+  "cracked": [
+    "fractured",
+    "split",
+    "broken",
+    "chipped",
+    "crumbled"
+  ],
+  "creased": [
+    "folded",
+    "wrinkled",
+    "crumpled",
+    "bunched",
+    "rumpled"
+  ],
+  "crinkled": [
+    "creased",
+    "wrinkled",
+    "tented",
+    "folded",
+    "bunched"
+  ],
+  "crumpled": [
+    "folded",
+    "wrinkled",
+    "creased",
+    "slightly crumpled",
+    "heavily crumpled"
+  ],
+  "crushed": [
+    "crumbled",
+    "chewed",
+    "mashed",
+    "fragmented",
+    "broken"
+  ],
+  "curved": [
+    "rounded",
+    "arched",
+    "bent",
+    "convex",
+    "sweeping"
+  ],
+  "cut": [
+    "shape",
+    "form",
+    "configuration",
+    "geometry",
+    "outline"
+  ],
+  "damp": [
+    "moist",
+    "wet",
+    "humid",
+    "soggy",
+    "dusty"
+  ],
+  "dark": [
+    "dark",
+    "shaded",
+    "ddeep",
+    "dusky",
+    "inky"
+  ],
+  "deflated": [
+    "collapsed",
+    "flattened",
+    "sagging",
+    "buckled",
+    "dlack"
+  ],
+  "dented": [
+    "bent",
+    "crumpled",
+    "indented",
+    "damaged",
+    "crooked"
+  ],
+  "diced": [
+    "chopped",
+    "minced",
+    "julienne",
+    "finely",
+    "coarsely"
+  ],
+  "dirty": [
+    "filthy",
+    "grime",
+    "soiled",
+    "stained",
+    "muddy"
+  ],
+  "draped": [
+    "flowing",
+    "billowing",
+    "swirling",
+    "undulating",
+    "gauzy"
+  ],
+  "dry": [
+    "arid",
+    "ddry",
+    "desiccated",
+    "bone-dry",
+    "slightly dry"
+  ],
+  "dull": [
+    "bland",
+    "lifeless",
+    "flat",
+    "unpolished",
+    "unshinny"
+  ],
+  "empty": [
+    "vacant",
+    "unoccupied",
+    "bare",
+    "available",
+    "free"
+  ],
+  "engraved": [
+    "imprinted",
+    "engraved",
+    "inscribed",
+    "etched",
+    "stamped"
+  ],
+  "eroded": [
+    "weathered",
+    "scoured",
+    "cracked",
+    "deteriorated",
+    "fractured"
+  ],
+  "fallen": [
+    "downed",
+    "prostrate",
+    "collapsed",
+    "crumched",
+    "tumbled"
+  ],
+  "filled": [
+    "occupied",
+    "filled-up",
+    "packed",
+    "crowded",
+    "dense"
+  ],
+  "foggy": [
+    "misty",
+    "smoky",
+    "hoggy",
+    "blurred",
+    "dim"
+  ],
+  "folded": [
+    "crumpled",
+    "wrinkled",
+    "creased",
+    "bunched",
+    "gathered"
+  ],
+  "frayed": [
+    "worn",
+    "tattered",
+    "ragged",
+    "snagged",
+    "threadbare"
+  ],
+  "fresh": [
+    "new",
+    "vibrant",
+    "crisp",
+    "recently picked",
+    "sharp"
+  ],
+  "frozen": [
+    "icy",
+    "frosty",
+    "cold",
+    "solidified",
+    "congealed"
+  ],
+  "full": [
+    "complete",
+    "entire",
+    "whole",
+    "full-bodied",
+    "fully"
+  ],
+  "grimy": [
+    "dirty",
+    "filthy",
+    "soiled",
+    "smeareded",
+    "muddy"
+  ],
+  "heavy": [
+    "solid",
+    "weighty",
+    "massive",
+    "dense",
+    "bulky"
+  ],
+  "huge": [
+    "large",
+    "enormous",
+    "gigantic",
+    "massive",
+    "towering"
+  ],
+  "inflated": [
+    "puffed",
+    "swollen",
+    "distended",
+    "enlarged",
+    "expanded"
+  ],
+  "large": [
+    "big",
+    "huge",
+    "giant",
+    "enormous",
+    "massive"
+  ],
+  "lightweight": [
+    "flimsy",
+    "breezy",
+    "slelightty",
+    "delicate",
+    "lightheaded"
+  ],
+  "loose": [
+    "relaxed",
+    "slack",
+    "loose-fitting",
+    "unbuttoned",
+    "untucked"
+  ],
+  "mashed": [
+    "mashed",
+    "pureed",
+    "smashed",
+    "homogenized",
+    "blended"
+  ],
+  "melted": [
+    "melted",
+    "liquefied",
+    "softened",
+    "molten",
+    "congealed"
+  ],
+  "modern": [
+    "contemporary",
+    "up",
+    "stylish",
+    "minimalist",
+    "sle"
+  ],
+  "moldy": [
+    "musty",
+    "fungus",
+    "decaying",
+    "rotten",
+    "infested"
+  ],
+  "molten": [
+    "liquid",
+    "melting",
+    "fusion",
+    "liquefying",
+    "melted"
+  ],
+  "mossy": [
+    "verdose",
+    "lichenous",
+    "greenish-brown",
+    "slimy",
+    "furry"
+  ],
+  "muddy": [
+    "dusty",
+    "muddy",
+    "clay-like",
+    "soil-covered",
+    "wet-dirty"
+  ],
+  "murky": [
+    "cloudy",
+    "murkey",
+    "turbid",
+    "hazy",
+    "opalescent"
+  ],
+  "narrow": [
+    "thin",
+    "constricted",
+    "tight",
+    "narrowed",
+    "compressed"
+  ],
+  "new": [
+    "fresh",
+    "novel",
+    "recent",
+    "innovative",
+    "updated"
+  ],
+  "old": [
+    "sharp",
+    "keen",
+    "acute",
+    "blunt",
+    "d "
+  ],
+  "open": [
+    "wide",
+    "unobstructed",
+    "spacious",
+    "accessible",
+    "unrestricted"
+  ],
+  "painted": [
+    "coated",
+    "colored",
+    "dyed",
+    "enamel-coated",
+    "lacquered"
+  ],
+  "peeled": [
+    "unpeeled",
+    "uncut",
+    "raw",
+    "fresh",
+    "whole"
+  ],
+  "pierced": [
+    "perforated",
+    "punctured",
+    "penetrated",
+    "drilled",
+    "stabbed"
+  ],
+  "pressed": [
+    "depressed",
+    "indented",
+    "sunken",
+    "embossed",
+    "recessed"
+  ],
+  "pureed": [
+    "blended",
+    "smashed",
+    "mashed",
+    "homogenized",
+    "liquefied"
+  ],
+  "raw": [
+    "unpolished",
+    "untreated",
+    "bare",
+    "crude",
+    "inherent"
+  ],
+  "ripe": [
+    "mature",
+    "fully grown",
+    "mellow",
+    "overripe",
+    "underripe"
+  ],
+  "ripped": [
+    "torn",
+    "frayed",
+    "worn",
+    "tear",
+    "damage"
+  ],
+  "rough": [
+    "coarse",
+    "uneven",
+    "granular",
+    "textured",
+    "bumpy"
+  ],
+  "ruffled": [
+    "frilly",
+    "flounced",
+    "pleated",
+    "ornate",
+    "elaborate"
+  ],
+  "runny": [
+    "watery",
+    "streaming",
+    "oozing",
+    "abundant",
+    "slight"
+  ],
+  "rusty": [
+    "oxidized",
+    "corroded",
+    "weathered",
+    "rusting",
+    "rusted"
+  ],
+  "scratched": [
+    "scratched",
+    "scuffed",
+    "marred",
+    "damaged",
+    "worn"
+  ],
+  "sharp": [
+    "acute",
+    "defined",
+    "distinct",
+    "pointed",
+    "keen"
+  ],
+  "shattered": [
+    "broken",
+    "cracked",
+    "fragmented",
+    "crumbled",
+    "splintered"
+  ],
+  "shiny": [
+    "glossy",
+    "lustrous",
+    "sparkling",
+    "polished",
+    "reflective"
+  ],
+  "short": [
+    "brief",
+    "compact",
+    "snappy",
+    "concise",
+    "to the point"
+  ],
+  "sliced": [
+    "cut",
+    "thinly sliced",
+    "heavily sliced"
+  ],
+  "small": [
+    "tiny",
+    "little",
+    "miniature",
+    "compact",
+    "dtiny"
+  ],
+  "smooth": [
+    "gentle",
+    "slippery",
+    "even",
+    "silky",
+    "uniform"
+  ],
+  "spilled": [
+    "dumped",
+    "drizzled",
+    "dribbled",
+    "dsoaked",
+    "ddrenched"
+  ],
+  "splintered": [
+    "cracked",
+    "chipped",
+    "fractured",
+    "damaged",
+    "broken"
+  ],
+  "squished": [
+    "crushed",
+    "compressed",
+    "flattened",
+    "crum",
+    "mashed"
+  ],
+  "standing": [
+    "erect",
+    "upstanding",
+    "vertical",
+    "upright",
+    "perpendicular"
+  ],
+  "steaming": [
+    "vaporizing",
+    "clouding",
+    "fogging",
+    "boiling",
+    "sizzling"
+  ],
+  "straight": [
+    "linear",
+    "rectilinear",
+    "upight",
+    "aligned",
+    "parallel"
+  ],
+  "sunny": [
+    "bright",
+    "cloudless",
+    "clear",
+    "sunny-day",
+    "sunny-side"
+  ],
+  "tall": [
+    "tall",
+    "high",
+    "lofty",
+    "very tall",
+    "slightly tall"
+  ],
+  "thawed": [
+    "melting",
+    "unfrozen",
+    "defrosted",
+    "softening",
+    "liquefying"
+  ],
+  "thick": [
+    "chunky",
+    "substantial",
+    "dense",
+    "hefty",
+    "solid"
+  ],
+  "thin": [
+    "slender",
+    "lean",
+    "light",
+    "delicate",
+    "svelte"
+  ],
+  "tight": [
+    "fitting",
+    "sle",
+    "conforming",
+    "secure",
+    "snug"
+  ],
+  "tiny": [
+    "small",
+    "miniature",
+    "petite",
+    "minuscule",
+    "diminutive"
+  ],
+  "toppled": [
+    "overturned",
+    "up",
+    "fell",
+    "completely fallen",
+    "partially tipped"
+  ],
+  "torn": [
+    "ripped",
+    "frayed",
+    "worn",
+    "tattered",
+    "snagged"
+  ],
+  "unpainted": [
+    "raw",
+    "bare",
+    "uncoated",
+    "unvarnished",
+    "unpolished"
+  ],
+  "unripe": [
+    "green",
+    "underdeveloped",
+    "immature",
+    "unmatured",
+    "incomplete"
+  ],
+  "upright": [
+    "vertical",
+    "erect",
+    "perpendicular",
+    "standing",
+    "straight"
+  ],
+  "verdant": [
+    "greenish",
+    "emerald",
+    "viridian",
+    "fresh",
+    "lively"
+  ],
+  "viscous": [
+    "gelatinous",
+    "thick",
+    "sticky",
+    "flowing",
+    "slimy"
+  ],
+  "weathered": [
+    "aged",
+    "worn",
+    "tarned",
+    "weather-beaten",
+    "faded"
+  ],
+  "wet": [
+    "damp",
+    "moist",
+    "soggy",
+    "dusty",
+    "slimy"
+  ],
+  "whipped": [
+    "folded",
+    "creamed",
+    "whipped-up",
+    "peaked",
+    "butterflied"
+  ],
+  "wide": [
+    "broad",
+    "wide-ranging",
+    "spacious",
+    "extensive",
+    "comprehensive"
+  ],
+  "wilted": [
+    "dried",
+    "crumpled",
+    "lifeless",
+    "shriveled",
+    "flaccid"
+  ],
+  "windblown": [
+    "tossed",
+    "billowing",
+    "fluttering",
+    "swaying",
+    "gustated"
+  ],
+  "winding": [
+    "twisting",
+    "coiling",
+    "spiraling",
+    "looping",
+    "undulating"
+  ],
+  "worn": [
+    "torn",
+    "frayed",
+    "scuffed",
+    "worn-out",
+    "tattered"
+  ],
+  "wrinkled": [
+    "creased",
+    "pleated",
+    "folded",
+    "crumpled",
+    "rumpled"
+  ],
+  "young": [
+    "juvenile",
+    "adolescent",
+    "youthful",
+    "teenage",
+    "childlike"
+  ]
+}

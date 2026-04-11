@@ -1,0 +1,2883 @@
+{
+  "abandoned": [
+    "deserted",
+    "abandoned",
+    "forlorn",
+    "completely deserted",
+    "partially neglected"
+  ],
+  "adult": [
+    "mature",
+    "grown-up",
+    "adults",
+    "adulthood",
+    "maturation"
+  ],
+  "aluminum": [
+    "steel",
+    "brass",
+    "tin",
+    "lightweight",
+    "metallic"
+  ],
+  "analog": [
+    "analogue",
+    "simile",
+    "comparison",
+    "parallel",
+    "equivalent"
+  ],
+  "angled": [
+    "slanted",
+    "tipped",
+    "inclined",
+    "sharply angled",
+    "gently angled"
+  ],
+  "angry": [
+    "furious",
+    "irritated",
+    "mad",
+    "enraged",
+    "outraged"
+  ],
+  "antique": [
+    "vintage",
+    "classic",
+    "old-fashioned",
+    "well-worn",
+    "time-worn"
+  ],
+  "arched": [
+    "curved",
+    "bowed",
+    "vaulted",
+    "domed",
+    "rounded"
+  ],
+  "artificial": [
+    "man-made",
+    "synthetic",
+    "fabricated",
+    "constructed",
+    "manufactured"
+  ],
+  "asian": [
+    "eastern",
+    "oriental",
+    "southeastern",
+    "traditional",
+    "cultural"
+  ],
+  "asphalt": [
+    "concrete",
+    "blacktop",
+    "bitumen",
+    "pavement",
+    "road"
+  ],
+  "assorted": [
+    "mixed",
+    "variety",
+    "diverse",
+    "heterogeneous",
+    "multicolored"
+  ],
+  "attached": [
+    "connected",
+    "linked",
+    "fastened",
+    "secured",
+    "affixed"
+  ],
+  "baby": [
+    "infant",
+    "toddler",
+    "child",
+    "newborn",
+    "babe"
+  ],
+  "baked": [
+    "roasted",
+    "cooked",
+    "browned",
+    "crisp",
+    "golden"
+  ],
+  "balding": [
+    "balding",
+    "going bald",
+    "thinning hair",
+    "mild balding",
+    "severe balding"
+  ],
+  "bamboo": [
+    "reed",
+    "cane",
+    "bast",
+    "fibrous",
+    "flexible"
+  ],
+  "banana": [
+    "fruit",
+    "yellow fruit",
+    "banana-shaped object",
+    "ripe",
+    "curved"
+  ],
+  "bare": [
+    "naked",
+    "unadorned",
+    "stripped",
+    "unclad",
+    "barefaced"
+  ],
+  "barefoot": [
+    "footloose",
+    "unshod",
+    "unshoe",
+    "nudefeet",
+    "stockinged"
+  ],
+  "barren": [
+    "deserted",
+    "sterile",
+    "bar",
+    "completely barren",
+    "partially barren"
+  ],
+  "baseball": [
+    "softball",
+    "cricket",
+    "golf",
+    "pitch",
+    "batting"
+  ],
+  "beige": [
+    "ivory",
+    "sand",
+    "sage",
+    "light brown",
+    "off-white"
+  ],
+  "bending": [
+    "flexing",
+    "bendable",
+    "yielding",
+    "curving",
+    "bent"
+  ],
+  "bent": [
+    "curved",
+    "flexible",
+    "crooked",
+    "bent over",
+    "bent backwards"
+  ],
+  "black": [
+    "dark",
+    "inky",
+    "pitch"
+  ],
+  "blank": [
+    "empty",
+    "vacant",
+    "unoccupied",
+    "bare",
+    "void"
+  ],
+  "blond": [
+    "blonde",
+    "fair",
+    "golden",
+    "light-haired",
+    "chestnut"
+  ],
+  "blooming": [
+    "blossoming",
+    "flowering",
+    "blooming",
+    "budding",
+    "in flower"
+  ],
+  "blue": [
+    "indigo",
+    "cobalt",
+    "navy",
+    "azure",
+    "sky"
+  ],
+  "blurry": [
+    "fuzzy",
+    "indistinct",
+    "unclear",
+    "slightly blurry",
+    "extremely blurry"
+  ],
+  "boiled": [
+    "cooked",
+    "steamed",
+    "simmered",
+    "boiling",
+    "parboiled"
+  ],
+  "brass": [
+    "bronze",
+    "copper",
+    "brass-like",
+    "polisheded",
+    "ornamental"
+  ],
+  "brick": [
+    "stone",
+    "concrete",
+    "masonry",
+    "paver",
+    "clay"
+  ],
+  "bright": [
+    "shiny",
+    "luminous",
+    "glowing",
+    "brilliant",
+    "radiant"
+  ],
+  "broken": [
+    "cracked",
+    "fractured",
+    "damaged",
+    "shattered",
+    "crumbled"
+  ],
+  "bronze": [
+    "copper",
+    "brass",
+    "goldtone",
+    "metallic",
+    "oxidized"
+  ],
+  "brown": [
+    "chocolate",
+    "reddish-brown",
+    "coppery",
+    "sandy",
+    "chestnut"
+  ],
+  "brunette": [
+    "chestnut",
+    "auburn",
+    "caramel",
+    "redhead",
+    "blonde"
+  ],
+  "burnt": [
+    "charred",
+    "smoked",
+    "scorched",
+    "overcooked",
+    "blackened"
+  ],
+  "bushy": [
+    "furry",
+    "shaggy",
+    "woolly",
+    "thick",
+    "dense"
+  ],
+  "busy": [
+    "occupied",
+    "busy",
+    "engaged",
+    "very busy",
+    "moderately busy"
+  ],
+  "calm": [
+    "serene",
+    "tranquil",
+    "peaceful",
+    "calming",
+    "soothing"
+  ],
+  "cardboard": [
+    "papier-mache",
+    "corrugated",
+    "chipboard",
+    "flimsy",
+    "recycled"
+  ],
+  "carpeted": [
+    "fitted",
+    "rugged",
+    "tiled",
+    "soft",
+    "hard"
+  ],
+  "carved": [
+    "engraved",
+    "incised",
+    "chiseled",
+    "decorated",
+    "inscribed"
+  ],
+  "ceramic": [
+    "porcelain",
+    "earthenware",
+    "stoneware",
+    "glazed",
+    "handcrafted"
+  ],
+  "checkered": [
+    "checkerboard",
+    "plaid",
+    "dotted",
+    "black and white",
+    "red and black"
+  ],
+  "chipped": [
+    "cracked",
+    "flaked",
+    "scuffed",
+    "damaged",
+    "worn"
+  ],
+  "chocolate": [
+    "cocoa",
+    "bittersweet",
+    "milk",
+    "truffle",
+    "flake"
+  ],
+  "chopped": [
+    "diced",
+    "chopped-up",
+    "minced",
+    "finely-chopped",
+    "coarsely-chopped"
+  ],
+  "choppy": [
+    "rough",
+    "turbulent",
+    "uneven",
+    "agitated",
+    "disturbed"
+  ],
+  "chrome": [
+    "metallic",
+    "glossy",
+    "shiny",
+    "polished",
+    "lustrous"
+  ],
+  "clay": [
+    "earthenware",
+    "pottery",
+    "terracotta",
+    "baked",
+    "un-fired"
+  ],
+  "clean": [
+    "spotless",
+    "sterile",
+    "bland",
+    "sanitized",
+    "unsoiled"
+  ],
+  "clear": [
+    "transparent",
+    "see-through",
+    "crystal",
+    "clarity",
+    "translucency"
+  ],
+  "closed": [
+    "closed",
+    "sealed",
+    "enclosed",
+    "tight",
+    "hermeticallyic"
+  ],
+  "cloth": [
+    "fabric",
+    "material",
+    "textile",
+    "woolen",
+    "denim"
+  ],
+  "cloudy": [
+    "overcast",
+    "misty",
+    "gloomy",
+    "partly cloudy",
+    "moderately cloudy"
+  ],
+  "clumped": [
+    "agglomerated",
+    "clustered",
+    "gathered",
+    "bunched",
+    "packed"
+  ],
+  "cluttered": [
+    "messy",
+    "cluttered",
+    "jumbled",
+    "disorganized",
+    "packed"
+  ],
+  "cobblestone": [
+    "flagstone",
+    "rubble",
+    "settlement",
+    "weathered",
+    "polished"
+  ],
+  "collared": [
+    "cotton",
+    "linen",
+    "silk",
+    "natural",
+    "textured"
+  ],
+  "colorful": [
+    "vibrant",
+    "multicolored",
+    "hueful",
+    "brilliant",
+    "darihued"
+  ],
+  "comfortable": [
+    "cozy",
+    "relaxing",
+    "soothing",
+    "snuggly",
+    "laid-back"
+  ],
+  "commercial": [
+    "business",
+    "industrial",
+    "corporate",
+    "professional",
+    "enterprise"
+  ],
+  "computer": [
+    "laptop",
+    "tablet",
+    "workstation",
+    "portable",
+    "desktop"
+  ],
+  "concrete": [
+    "cement",
+    "asphalt",
+    "masonry",
+    "pavement",
+    "aggregate"
+  ],
+  "connected": [
+    "linked",
+    "joined",
+    "attached",
+    "conjoined",
+    "integrated"
+  ],
+  "cooked": [
+    "prepared",
+    "baked",
+    "roasted",
+    "grilled",
+    "simmered"
+  ],
+  "cooking": [
+    "kitchen",
+    "cuisine",
+    "meal",
+    "baking",
+    "grillinging"
+  ],
+  "copper": [
+    "brass",
+    "bronze",
+    "tin",
+    "oxidized",
+    "annealed"
+  ],
+  "covered": [
+    "shielded",
+    "protected",
+    "screened",
+    "enclosed",
+    "sheltered"
+  ],
+  "cracked": [
+    "fractured",
+    "split",
+    "broken",
+    "chipped",
+    "crumbled"
+  ],
+  "creamy": [
+    "creme",
+    "ivory",
+    "almond",
+    "milky",
+    "pale"
+  ],
+  "crisp": [
+    "crisp",
+    "tender",
+    "fresh",
+    "crunchy",
+    "snappy"
+  ],
+  "crooked": [
+    "bent",
+    "askew",
+    "twisted",
+    "slanted",
+    "distorted"
+  ],
+  "crouched": [
+    "squatting",
+    "stooping",
+    "bent",
+    "kneeling",
+    "half-bent"
+  ],
+  "crouching": [
+    "kneeling",
+    "stooping",
+    "bending",
+    "crouched",
+    "howling"
+  ],
+  "crowded": [
+    "busy",
+    "packed",
+    "dense",
+    "overcrowded",
+    "jammed"
+  ],
+  "crumbled": [
+    "fragmented",
+    "crumbled",
+    "broken",
+    "crumbled-up",
+    "crumbled-away"
+  ],
+  "crumpled": [
+    "folded",
+    "wrinkled",
+    "creased",
+    "slightly crumpled",
+    "heavily crumpled"
+  ],
+  "crusty": [
+    "scaly",
+    "sandy",
+    "furry",
+    "bumpy",
+    "rough"
+  ],
+  "curious": [
+    "inquisitive",
+    "eager",
+    "quirky",
+    "inquiring",
+    "speculative"
+  ],
+  "curled": [
+    "wavy",
+    "ringletted",
+    "coiled",
+    "spiraled",
+    "twisted"
+  ],
+  "curly": [
+    "wavy",
+    "ringletted",
+    "coily",
+    "kinky",
+    "spiraled"
+  ],
+  "curved": [
+    "rounded",
+    "arched",
+    "bent",
+    "convex",
+    "spherical"
+  ],
+  "curvy": [
+    "bent",
+    "rounded",
+    "arched",
+    "flexible",
+    "sinuous"
+  ],
+  "cushioned": [
+    "soft",
+    "padding",
+    "comfy",
+    "relaxed",
+    "snuggly"
+  ],
+  "cut": [
+    "shape",
+    "form",
+    "configuration",
+    "geometry",
+    "outline"
+  ],
+  "damaged": [
+    "worn",
+    "torn",
+    "cracked",
+    "fractured",
+    "ruptured"
+  ],
+  "dark": [
+    "dark",
+    "shaded",
+    "ddeep",
+    "dusky",
+    "inky"
+  ],
+  "decorated": [
+    "ornamented",
+    "adorned",
+    "embellished",
+    "intricately-decorated",
+    "lightly-decorated"
+  ],
+  "decorative": [
+    "ornamental",
+    "adorned",
+    "embellished",
+    "intricate",
+    "elaborate"
+  ],
+  "deep": [
+    "dark",
+    "dlack",
+    "shaded",
+    "intense",
+    "vibrant"
+  ],
+  "delicious": [
+    "tasty",
+    "savory",
+    "flavorful",
+    "appetizing",
+    "delectable"
+  ],
+  "denim": [
+    "jeans",
+    "denim fabric",
+    "blue jeans",
+    "cotton denim",
+    "stone washed denim"
+  ],
+  "dense": [
+    "compact",
+    "thick",
+    "solid",
+    "heavily populated",
+    "closely packed"
+  ],
+  "designed": [
+    "crafted",
+    "constructed",
+    "manufactured",
+    "assembled",
+    "fabricated"
+  ],
+  "diamond": [
+    "jewel",
+    "gemstone",
+    "faceted",
+    "polished"
+  ],
+  "digital": [
+    "electronic",
+    "virtual",
+    "digitalized",
+    "analog",
+    "non-digital"
+  ],
+  "dirty": [
+    "filthy",
+    "grime",
+    "soiled",
+    "stained",
+    "sullied"
+  ],
+  "discolored": [
+    "stained",
+    "faded",
+    "yellowed",
+    "blemished",
+    "oxidized"
+  ],
+  "disposable": [
+    "throwaway",
+    "single-use",
+    "disposable",
+    "wasteful",
+    "temporary"
+  ],
+  "docked": [
+    "anchored",
+    "moored",
+    "tied up",
+    "secured",
+    "fastened"
+  ],
+  "domed": [
+    "rounded",
+    "arched",
+    "vaulted",
+    "tented",
+    "haped"
+  ],
+  "dotted": [
+    "dotted",
+    "driced",
+    "perforated",
+    "spotted",
+    "punctuated"
+  ],
+  "drawn": [
+    "painted",
+    "inked",
+    "etched",
+    "illustrated",
+    "depicted"
+  ],
+  "drinking": [
+    "sipping",
+    "quaffing",
+    "imbibing",
+    "gulping",
+    "savoring"
+  ],
+  "driving": [
+    "operating",
+    "maneuvering",
+    "controlling",
+    "accelerating",
+    "braking"
+  ],
+  "dry": [
+    "arid",
+    "ddry",
+    "desiccated",
+    "bone-dry",
+    "slightly dry"
+  ],
+  "dull": [
+    "bland",
+    "lifeless",
+    "flat",
+    "unpolished",
+    "unshinny"
+  ],
+  "dusty": [
+    "gritty",
+    "stale",
+    "filthy",
+    "cloudy",
+    "muddy"
+  ],
+  "eaten": [
+    "consumed",
+    "eaten",
+    "devoured",
+    "munched",
+    "gnawed"
+  ],
+  "edged": [
+    "lined",
+    "bordered",
+    "framed",
+    "defined",
+    "outlined"
+  ],
+  "electric": [
+    "electrical",
+    "plugged",
+    "charged",
+    "energized",
+    "live"
+  ],
+  "electronic": [
+    "digital",
+    "electrical",
+    "technological",
+    "operational",
+    "functional"
+  ],
+  "elevated": [
+    "raised",
+    "heightened",
+    "up",
+    "elevated above",
+    "raised up",
+    "slightly elevated",
+    "significantly elevated"
+  ],
+  "empty": [
+    "vacant",
+    "unoccupied",
+    "bare",
+    "deserted",
+    "void"
+  ],
+  "evergreen": [
+    "coniferous",
+    "green",
+    "permanent",
+    "deciduous",
+    "wilted"
+  ],
+  "faded": [
+    "worn",
+    "bleached",
+    "stained",
+    "tarnished",
+    "dimmed"
+  ],
+  "fake": [
+    "imitation",
+    "plastic",
+    "synthetic",
+    "counterfeit",
+    "artificial"
+  ],
+  "fancy": [
+    "elegant",
+    "luxurious",
+    "sumptuous",
+    "opulent",
+    "gilded"
+  ],
+  "fat": [
+    "plump",
+    "chubby",
+    "rounded",
+    "overweight",
+    "well-fed"
+  ],
+  "feathered": [
+    "feathered",
+    "plumed",
+    "downy",
+    "feathered-like",
+    "feathered-winged"
+  ],
+  "fenced": [
+    "enclosed",
+    "surrounded",
+    "secured",
+    "fully fenced",
+    "partially fenced"
+  ],
+  "filled": [
+    "occupied",
+    "stuffed",
+    "plump",
+    "rounded",
+    "bulging"
+  ],
+  "fire": [
+    "flame",
+    "blaze",
+    "conflagration",
+    "intense",
+    "ferocious"
+  ],
+  "flat": [
+    "smooth",
+    "level",
+    "even",
+    "unblemished",
+    "uniform"
+  ],
+  "floating": [
+    "driftinging",
+    "swaying",
+    "oscillating",
+    "unstable",
+    "unfixed"
+  ],
+  "floral": [
+    "blossom",
+    "petal",
+    "bloom",
+    "botanical",
+    "greenery"
+  ],
+  "fluffy": [
+    "soft",
+    "plush",
+    "fuzzy",
+    "downy",
+    "velvety"
+  ],
+  "foamy": [
+    "foaming",
+    "foamy-like",
+    "mousse-like",
+    "lathered",
+    "suds"
+  ],
+  "foggy": [
+    "misty",
+    "smoky",
+    "cloudy",
+    "hazy",
+    "blurred"
+  ],
+  "folded": [
+    "crumpled",
+    "wrinkled",
+    "creased",
+    "bunched",
+    "gathered"
+  ],
+  "forested": [
+    "wooded",
+    "treed",
+    "bushy",
+    "overgrown",
+    "dense"
+  ],
+  "formal": [
+    "official",
+    "academic",
+    "ceremonial",
+    "formal and precise",
+    "formal and polite"
+  ],
+  "framed": [
+    "bordered",
+    "encased",
+    "surrounded",
+    "enclosed",
+    "enveloped"
+  ],
+  "fresh": [
+    "new",
+    "vibrant",
+    "crisp",
+    "recently picked",
+    "sharp"
+  ],
+  "fried": [
+    "cooked",
+    "pan-fried",
+    "crisped",
+    "golden-brown",
+    "well-done"
+  ],
+  "frosted": [
+    "glares",
+    "tinted",
+    "frosted",
+    "lightly frosted",
+    "heavily frosted"
+  ],
+  "frozen": [
+    "icy",
+    "frosty",
+    "cold",
+    "solidified",
+    "congealed"
+  ],
+  "full": [
+    "complete",
+    "entire",
+    "whole",
+    "full-bodied",
+    "fully"
+  ],
+  "furry": [
+    "fuzzy",
+    "velvety",
+    "soft",
+    "huzzy",
+    "fluffy"
+  ],
+  "fuzzy": [
+    "soft",
+    "velvety",
+    "pillowy",
+    "fleuffy",
+    "bouncy"
+  ],
+  "giant": [
+    "huge",
+    "enormous",
+    "gargantian",
+    "colossal",
+    "monumental"
+  ],
+  "glass": [
+    "crystal",
+    "vitreous",
+    "clear",
+    "translucent",
+    "transparent"
+  ],
+  "glazed": [
+    "polished",
+    "glossy",
+    "enamelled",
+    "ceramic",
+    "pottery"
+  ],
+  "glossy": [
+    "shiny",
+    "lustrous",
+    "glistening",
+    "polished",
+    "mirrorlike"
+  ],
+  "glowing": [
+    "luminous",
+    "shimmering",
+    "radiant",
+    "fluorescent",
+    "incandescent"
+  ],
+  "gold": [
+    "copper",
+    "brass",
+    "gilt",
+    "shiny",
+    "precious"
+  ],
+  "granite": [
+    "granite",
+    "gneiss",
+    "dsyenite",
+    "polishedable",
+    "hard"
+  ],
+  "gray": [
+    "grey",
+    "silver",
+    "charcoal",
+    "dusky",
+    "ashen"
+  ],
+  "greasy": [
+    "oily",
+    "fatty",
+    "dusty",
+    "slimy",
+    "sloppy"
+  ],
+  "green": [
+    "blue",
+    "chartreuse",
+    "emerald",
+    "jade",
+    "forest"
+  ],
+  "grilled": [
+    "bar broiled",
+    "char-grilled",
+    "pan-seareded",
+    "well-done",
+    "medium-rare"
+  ],
+  "groomed": [
+    "maintained",
+    "well-tended",
+    "neice",
+    "pruned",
+    "trimmed"
+  ],
+  "grouped": [
+    "clustered",
+    "gathered",
+    "accumulated",
+    "bunched",
+    "packed"
+  ],
+  "hairy": [
+    "furry",
+    "woolly",
+    "huzzy",
+    "velvety",
+    "downy"
+  ],
+  "halved": [
+    "cut",
+    "sliced",
+    "divided",
+    "quartered",
+    "split"
+  ],
+  "handmade": [
+    "artisanal",
+    "handcrafted",
+    "custom-made",
+    "unique",
+    "personalized"
+  ],
+  "hanging": [
+    "suspended",
+    "duspended",
+    "harnnged",
+    "swinging",
+    "danging"
+  ],
+  "happy": [
+    "joyful",
+    "cheerful",
+    "content",
+    "ecstatic",
+    "satisfied"
+  ],
+  "hard": [
+    "firm",
+    "rigid",
+    "solid",
+    "stiff",
+    "unyielding"
+  ],
+  "hardwood": [
+    "oak",
+    "pine",
+    "walnut",
+    "solid",
+    "engineered"
+  ],
+  "hazy": [
+    "blurry",
+    "indistinct",
+    "foggy",
+    "misty",
+    "smoky"
+  ],
+  "healthy": [
+    "vibrant",
+    "thriving",
+    "robust",
+    "nutritious",
+    "beneficial"
+  ],
+  "heavy": [
+    "solid",
+    "weighty",
+    "massive",
+    "dense",
+    "bulky"
+  ],
+  "high": [
+    "tall",
+    "large",
+    "big",
+    "elevated",
+    "towering"
+  ],
+  "horizontal": [
+    "parallel",
+    "level",
+    "aligned",
+    "perpendicular",
+    "inclined"
+  ],
+  "huge": [
+    "large",
+    "enormous",
+    "gigantic",
+    "massive",
+    "towering"
+  ],
+  "iced": [
+    "frosted",
+    "snowy",
+    "chilled",
+    "crisp",
+    "refreshed"
+  ],
+  "illuminated": [
+    "lit",
+    "illuminated",
+    "glowing",
+    "bright",
+    "shining"
+  ],
+  "indoors": [
+    "home",
+    "interior",
+    "indoorspace",
+    "residential",
+    "enclosed"
+  ],
+  "industrial": [
+    "mechanical",
+    "manufactured",
+    "metallic",
+    "rustic",
+    "brutal"
+  ],
+  "inflatable": [
+    "blow-up",
+    "air-filled",
+    "pneumatic",
+    "expandable",
+    "buoyant"
+  ],
+  "intricate": [
+    "complex",
+    "elaborate",
+    "ddetails",
+    "intricately",
+    "complicatedly"
+  ],
+  "iron": [
+    "steel",
+    "metal",
+    "rebar",
+    "alloyed",
+    "forged"
+  ],
+  "ivory": [
+    "ivory white",
+    "alabaster",
+    "creme",
+    "pearly",
+    "chalky"
+  ],
+  "juicy": [
+    "plump",
+    "succulent",
+    "fleshy",
+    "ripe",
+    "juicy-tasting"
+  ],
+  "khaki": [
+    "beige",
+    "olive",
+    "tans",
+    "worn",
+    "untailored"
+  ],
+  "kneeling": [
+    "kneeling",
+    "crouching",
+    "stooping",
+    "bending",
+    "bowing"
+  ],
+  "knit": [
+    "crochet",
+    "twill",
+    "jersey",
+    "textured",
+    "soft"
+  ],
+  "knotted": [
+    "braided",
+    "twisted",
+    "woven",
+    "entangled",
+    "interlaced"
+  ],
+  "large": [
+    "big",
+    "huge",
+    "giant",
+    "enormous",
+    "massive"
+  ],
+  "laughing": [
+    "giggling",
+    "chuckling",
+    "mirthful",
+    "joyous",
+    "amused"
+  ],
+  "leafless": [
+    "bare",
+    "unleafed",
+    "defoliated",
+    "stripped",
+    "nude"
+  ],
+  "leafy": [
+    "green",
+    "vibrant",
+    "lush",
+    "foliage",
+    "arboreal"
+  ],
+  "leather": [
+    "suede",
+    "fabric",
+    "calfskin",
+    "genuine",
+    "processed"
+  ],
+  "light": [
+    "bright",
+    "shiny",
+    "illuminated",
+    "glowing",
+    "luminous"
+  ],
+  "lighted": [
+    "illuminated",
+    "glowing",
+    "lit",
+    "brightened",
+    "enlightened"
+  ],
+  "long": [
+    "tall",
+    "extended",
+    "lengthy",
+    "prolonged",
+    "stretched"
+  ],
+  "loose": [
+    "relaxed",
+    "slack",
+    "loose-fitting",
+    "unbuttoned",
+    "untucked"
+  ],
+  "low": [
+    "small",
+    "minimal",
+    "reduced",
+    "compressed",
+    "constricted"
+  ],
+  "lush": [
+    "vibrant",
+    "lush",
+    "green",
+    "abundant",
+    "prolif"
+  ],
+  "marble": [
+    "granite",
+    "quartz",
+    "limestone",
+    "polished",
+    "unpolished"
+  ],
+  "maroon": [
+    "ruby",
+    "crimson",
+    "mulberry",
+    "dark red",
+    "reddish brown"
+  ],
+  "massive": [
+    "large",
+    "gigantic",
+    "enormous",
+    "monumental",
+    "colossal"
+  ],
+  "mature": [
+    "mature-looking",
+    "adult",
+    "grown-up",
+    "matured",
+    "maturedness"
+  ],
+  "melted": [
+    "melted",
+    "liquefied",
+    "softened",
+    "molten",
+    "drunken"
+  ],
+  "melting": [
+    "fusible",
+    "meltable",
+    "efflorescent",
+    "liquefying",
+    "soften"
+  ],
+  "mesh": [
+    "lattice",
+    "framework",
+    "grille",
+    "openwork",
+    "perforated"
+  ],
+  "messy": [
+    "cluttered",
+    "disheveled",
+    "jumbled",
+    "untidy",
+    "scattered"
+  ],
+  "metal": [
+    "iron",
+    "aluminum",
+    "steel",
+    "rusty",
+    "polished"
+  ],
+  "military": [
+    "military",
+    "army",
+    "forces",
+    "uniformed",
+    "camouflaged"
+  ],
+  "miniature": [
+    "tiny",
+    "small",
+    "mini",
+    "dollhouse",
+    "microscopic"
+  ],
+  "misty": [
+    "foggy",
+    "smoky",
+    "histy",
+    "hazy",
+    "misty"
+  ],
+  "modern": [
+    "contemporary",
+    "up",
+    "stylish",
+    "minimalist",
+    "sle"
+  ],
+  "mounted": [
+    "attached",
+    "fastened",
+    "secured",
+    "bolted",
+    "clamped"
+  ],
+  "mowed": [
+    "cut",
+    "trimmed",
+    "lawnmowed",
+    "negreen",
+    "neneat"
+  ],
+  "muddy": [
+    "dusty",
+    "clayey",
+    "muddy",
+    "soilied",
+    "wetted"
+  ],
+  "murky": [
+    "murky",
+    "turbid",
+    "cloudy",
+    "slightly murky",
+    "extremely murky"
+  ],
+  "narrow": [
+    "thin",
+    "narrowed",
+    "constricted",
+    "compressed",
+    "restricted"
+  ],
+  "neat": [
+    "tidy",
+    "neice",
+    "clean",
+    "orderly",
+    "neatly"
+  ],
+  "neon": [
+    "fluorescent",
+    "glowing",
+    "bright",
+    "shimmering",
+    "luminous"
+  ],
+  "new": [
+    "fresh",
+    "novel",
+    "recent",
+    "innovative",
+    "updated"
+  ],
+  "ocean": [
+    "sea",
+    "bay",
+    "gulf",
+    "tide",
+    "wave"
+  ],
+  "old": [
+    "sharp",
+    "keen",
+    "acute",
+    "blunt",
+    "d "
+  ],
+  "open": [
+    "wide",
+    "unobstructed",
+    "spacious",
+    "accessible",
+    "unrestricted"
+  ],
+  "orange": [
+    "tangerine",
+    "amber",
+    "sunset",
+    "rustic",
+    "zestful"
+  ],
+  "oriental": [
+    "eastern",
+    "asian",
+    "tropical",
+    "exotic",
+    "traditional"
+  ],
+  "outdoor": [
+    "outdoor",
+    "outdoors",
+    "outdoor area",
+    "garden",
+    "patio"
+  ],
+  "outdoors": [
+    "outdoor",
+    "outdoorsy",
+    "al fresco",
+    "garden",
+    "park"
+  ],
+  "outstretched": [
+    "stretched",
+    "extended",
+    "reached",
+    "reaching",
+    "stretching"
+  ],
+  "overgrown": [
+    "weedy",
+    "untended",
+    "overgrown",
+    "mossy",
+    "wild"
+  ],
+  "overhead": [
+    "above",
+    "overhead",
+    "uptop",
+    "overhhead",
+    "aerial"
+  ],
+  "oversized": [
+    "large",
+    "broad",
+    "loose",
+    "baggy",
+    "roomy"
+  ],
+  "packaged": [
+    "bottled",
+    "boxed",
+    "wrapped",
+    "sealed",
+    "encapsulated"
+  ],
+  "packed": [
+    "bundled",
+    "wrapped",
+    "encapsulated",
+    "compressed",
+    "packaged"
+  ],
+  "padded": [
+    "lined",
+    "buffed",
+    "embossed",
+    "thickened",
+    "softened"
+  ],
+  "painted": [
+    "coated",
+    "colored",
+    "dyed",
+    "enamel-coated",
+    "lacquered"
+  ],
+  "pale": [
+    "light",
+    "palest",
+    "faint",
+    "pastel",
+    "translucent"
+  ],
+  "palm": [
+    "hand",
+    "paw",
+    "glove",
+    "grasp",
+    "palmar"
+  ],
+  "paneled": [
+    "paneled",
+    "wood-paneled",
+    "panelled",
+    "decorative-paned",
+    "striped-paneled"
+  ],
+  "paper": [
+    "document",
+    "sheet",
+    "article",
+    "new"
+  ],
+  "park": [
+    "garden",
+    "recreation area",
+    "green space",
+    "public",
+    "private"
+  ],
+  "parked": [
+    "stationed",
+    "anchored",
+    "parked on the street",
+    "parked in a garage"
+  ],
+  "patchy": [
+    "spotty",
+    "dattered",
+    "scattered",
+    "fragmented",
+    "incomplete"
+  ],
+  "patterned": [
+    "striped",
+    "plaid",
+    "checked",
+    "geometric",
+    "floral"
+  ],
+  "paved": [
+    "concrete",
+    "asphalt",
+    "tarmacked",
+    "pavement",
+    "surface"
+  ],
+  "peeled": [
+    "unpeeled",
+    "uncut",
+    "raw",
+    "fresh",
+    "whole"
+  ],
+  "peeling": [
+    "cracking",
+    "flaking",
+    "scaling",
+    "detaching",
+    "sloughing"
+  ],
+  "piled": [
+    "stacked",
+    "heaped",
+    "accumulated",
+    "layered",
+    "mounded"
+  ],
+  "pink": [
+    "rose",
+    "pale",
+    "pastel"
+  ],
+  "plaid": [
+    "checkered",
+    "tartary",
+    "twill",
+    "crisscrossed",
+    "diagonal"
+  ],
+  "plain": [
+    "simple",
+    "unadorned",
+    "minimalist",
+    "bare",
+    "plainly"
+  ],
+  "plastic": [
+    "resin",
+    "polymer",
+    "synthetic",
+    "flexible",
+    "lightweight"
+  ],
+  "pointing": [
+    "indicating",
+    "directing",
+    "showing",
+    "gesturing",
+    "gesticulating"
+  ],
+  "pointy": [
+    "sharp",
+    "spiky",
+    "angular",
+    "blunt",
+    "rounded"
+  ],
+  "polished": [
+    "shiny",
+    "glossy",
+    "lustrous",
+    "highly reflective",
+    "smooth"
+  ],
+  "porcelain": [
+    "china",
+    "porcelaineous",
+    "ceramic",
+    "glazed",
+    "white"
+  ],
+  "posing": [
+    "positioning",
+    "alignment",
+    "arrangement",
+    "orientation",
+    "posture"
+  ],
+  "potted": [
+    "pottered",
+    "potted-up",
+    "containerized",
+    "budded",
+    "rooted"
+  ],
+  "powdered": [
+    "granulated",
+    "ground",
+    "micronized",
+    "finely powdered",
+    "coarsely powdered"
+  ],
+  "powerful": [
+    "strong",
+    "forceful",
+    "robust",
+    "intense",
+    "vigorous"
+  ],
+  "printed": [
+    "embossed",
+    "decal",
+    "stamped",
+    "watermarked",
+    "foil"
+  ],
+  "professional": [
+    "corporate",
+    "business",
+    "career",
+    "executive",
+    "sophisticated"
+  ],
+  "protective": [
+    "defensive",
+    "shielding",
+    "protective",
+    "guarded",
+    "secure"
+  ],
+  "public": [
+    "open",
+    "accessible",
+    "available",
+    "outdoor",
+    "community"
+  ],
+  "puffy": [
+    "fluffy",
+    "billowy",
+    "puffy",
+    "cloudy",
+    "pillowy"
+  ],
+  "purple": [
+    "indigo",
+    "violet",
+    "mauve",
+    "lavender",
+    "periwinkle"
+  ],
+  "railroad": [
+    "train track",
+    "railway",
+    "tram line",
+    "trackway",
+    "trestle"
+  ],
+  "rainy": [
+    "stormy",
+    "drizzly",
+    "showery",
+    "overcast",
+    "cloudy"
+  ],
+  "raised": [
+    "elevated",
+    "lifted",
+    "up"
+  ],
+  "raw": [
+    "unrefined",
+    "uncut",
+    "inherent",
+    "crude",
+    "gross"
+  ],
+  "real": [
+    "true",
+    "actual",
+    "genuine",
+    "concrete",
+    "abstract"
+  ],
+  "recessed": [
+    "indented",
+    "sunken",
+    "depressed",
+    "embossed",
+    "concave"
+  ],
+  "rectangular": [
+    "square",
+    "rectiform",
+    "oblong",
+    "cuboid",
+    "parallelogram"
+  ],
+  "red": [
+    "crimson",
+    "scarlet",
+    "ruby",
+    "blazing",
+    "fiery"
+  ],
+  "reflected": [
+    "shiny",
+    "glossy",
+    "mirrorlike",
+    "lustrous",
+    "specular"
+  ],
+  "reflective": [
+    "glossy",
+    "shiny",
+    "sparkling",
+    "mirror-like",
+    "lustrous"
+  ],
+  "ridged": [
+    "textured",
+    "grooved",
+    "furrowed",
+    "bumpy",
+    "corrugated"
+  ],
+  "ripe": [
+    "mature",
+    "fully grown",
+    "mellow",
+    "overripe",
+    "underripe"
+  ],
+  "rippled": [
+    "wavy",
+    "undulating",
+    "ruffled",
+    "creased",
+    "tumultuous"
+  ],
+  "rippling": [
+    "wave-like",
+    "undulating",
+    "tumultuous",
+    "swirling",
+    "billowing"
+  ],
+  "roasted": [
+    "baked",
+    "grilled",
+    "roast",
+    "charred",
+    "crisped"
+  ],
+  "rocky": [
+    "jagged",
+    "rough",
+    "hrsevere",
+    "granular",
+    "bumpy"
+  ],
+  "rolled": [
+    "folded",
+    "creased",
+    "wrinkled",
+    "crumpled",
+    "pleated"
+  ],
+  "rotten": [
+    "decayed",
+    "moldy",
+    "spoiled",
+    "infested",
+    "corrupted"
+  ],
+  "rough": [
+    "coarse",
+    "uneven",
+    "granular",
+    "textured",
+    "bumpy"
+  ],
+  "round": [
+    "circular",
+    "oval",
+    "spherical",
+    "smooth",
+    "curved"
+  ],
+  "rounded": [
+    "curved",
+    "arched",
+    "bowed",
+    "smooth",
+    "plump"
+  ],
+  "rubber": [
+    "latex",
+    "elastic",
+    "gum",
+    "soft",
+    "flexible"
+  ],
+  "rugged": [
+    "rough",
+    "bumpy",
+    "uneven",
+    "weathered",
+    "tough"
+  ],
+  "rustic": [
+    "vintage",
+    "weathered",
+    "countryside",
+    "aged",
+    "barnared"
+  ],
+  "rusty": [
+    "oxidized",
+    "corroded",
+    "weathered",
+    "rusting",
+    "reddish-brown"
+  ],
+  "sad": [
+    "melancholy",
+    "depressed",
+    "gloomy",
+    "forlorn",
+    "miserable"
+  ],
+  "sandy": [
+    "gritty",
+    "beachy",
+    "pebbly",
+    "coarse",
+    "fine"
+  ],
+  "scattered": [
+    "dispersed",
+    "scattered about",
+    "distributed",
+    "spread out",
+    "scattered randomly"
+  ],
+  "sealed": [
+    "encapsulated",
+    "coated",
+    "protected",
+    "hermeticallyic",
+    "airtight"
+  ],
+  "seasoned": [
+    "cured",
+    "matured",
+    "well-used",
+    "worn",
+    "aged"
+  ],
+  "shaded": [
+    "darked",
+    "deep",
+    "dim",
+    "dusky",
+    "gloomy"
+  ],
+  "shadowed": [
+    "darkened",
+    "shaded",
+    "dimmed",
+    "eclipsed",
+    "obscured"
+  ],
+  "shaggy": [
+    "woolly",
+    "fuzzy",
+    "rough",
+    "long-haired",
+    "matted"
+  ],
+  "shallow": [
+    "deep",
+    "rare",
+    "infrequent",
+    "scarce",
+    "uncommon"
+  ],
+  "shaped": [
+    "formed",
+    "shaped",
+    "molded",
+    "contoured",
+    "configured"
+  ],
+  "sharp": [
+    "keen",
+    "acute",
+    "defined",
+    "blunt",
+    "deil"
+  ],
+  "shaved": [
+    "groomed",
+    "trimmed",
+    "neared",
+    "buffed",
+    "polished"
+  ],
+  "sheer": [
+    "transparent",
+    "see-through",
+    "filmy",
+    "semi-transparent",
+    "gossamer"
+  ],
+  "shining": [
+    "glistening",
+    "sparkling",
+    "gleaming",
+    "lustrous",
+    "polished"
+  ],
+  "shiny": [
+    "glossy",
+    "lustrous",
+    "sparkling",
+    "polished",
+    "mirrorlike"
+  ],
+  "short": [
+    "brief",
+    "compact",
+    "snappy",
+    "concise",
+    "to the point"
+  ],
+  "shredded": [
+    "torn",
+    "crumpled",
+    "worn",
+    "ragged",
+    "fragmented"
+  ],
+  "silver": [
+    "metallic",
+    "glistening",
+    "shiny",
+    "polished",
+    "lustrous"
+  ],
+  "simple": [
+    "plain",
+    "basic",
+    "minimalist",
+    "unadorned",
+    "undecorated"
+  ],
+  "sitting": [
+    "seating",
+    "sitting",
+    "perching",
+    "comfortable",
+    "stable"
+  ],
+  "skinny": [
+    "slim",
+    "thin",
+    "lean",
+    "narrow",
+    "dskinny"
+  ],
+  "slanted": [
+    "inclined",
+    "tilted",
+    "angled",
+    "oblique",
+    "slanting"
+  ],
+  "sleepy": [
+    "drowsy",
+    "dagged",
+    "dired",
+    "dozy",
+    "nodding"
+  ],
+  "sleeveless": [
+    "bare",
+    "no-sleeve",
+    "short-sleeved",
+    "off-the-shoulder",
+    "halter"
+  ],
+  "sliced": [
+    "cut",
+    "thinly sliced",
+    "heavily sliced"
+  ],
+  "sliding": [
+    "gliding",
+    "slipping",
+    "crawling",
+    "smooth",
+    "jammed"
+  ],
+  "sloped": [
+    "inclined",
+    "slanted",
+    "pitched",
+    "steep",
+    "gradual"
+  ],
+  "small": [
+    "tiny",
+    "little",
+    "miniature",
+    "compact",
+    "dtiny"
+  ],
+  "smooth": [
+    "gentle",
+    "slippery",
+    "even",
+    "velvety smooth",
+    "glassy smooth"
+  ],
+  "snow": [
+    "ice",
+    "frost",
+    "hoarfrost",
+    "icy",
+    "snowy"
+  ],
+  "snowboarding": [
+    "skiing",
+    "snowboarding",
+    "mountaingo",
+    "winter sport",
+    "extreme sport"
+  ],
+  "snowy": [
+    "icy",
+    "frosty",
+    "wintery",
+    "freezing",
+    "cold"
+  ],
+  "soft": [
+    "gentle",
+    "mild",
+    "plush",
+    "fluffy",
+    "cushioned"
+  ],
+  "sparse": [
+    "scant",
+    "rare",
+    "thin",
+    "scattered",
+    "sparsest"
+  ],
+  "speckled": [
+    "dotted",
+    "mottled",
+    "spotted",
+    "checkered",
+    "marbled"
+  ],
+  "spiky": [
+    "sharp",
+    "pointed",
+    "spiky",
+    "barblade",
+    "prickly"
+  ],
+  "spinning": [
+    "rotating",
+    "whirling",
+    "twirling",
+    "spun",
+    "spinningly"
+  ],
+  "splashing": [
+    "dsplashing",
+    "spraying",
+    "dspraying",
+    "dwaterfall",
+    "dfoam"
+  ],
+  "spraying": [
+    "mist",
+    "spray",
+    "dog1",
+    "fogging",
+    "atomizing"
+  ],
+  "sprinkled": [
+    "dotted",
+    "dashed",
+    "distributed",
+    "abundant",
+    "scattered"
+  ],
+  "square": [
+    "rectangular",
+    "cuboid",
+    "quadrilateral",
+    "angular",
+    "right-angled"
+  ],
+  "squatting": [
+    "crouching",
+    "stooping",
+    "bending",
+    "kneeling",
+    "half-sitting"
+  ],
+  "stacked": [
+    "layered",
+    "tiered",
+    "racked",
+    "assembled",
+    "arranged"
+  ],
+  "stained": [
+    "tinted",
+    "discolored",
+    "mottled",
+    "soiled",
+    "blemished"
+  ],
+  "standing": [
+    "erect",
+    "upstanding",
+    "vertical",
+    "upright",
+    "perpendicular"
+  ],
+  "staring": [
+    "gazing",
+    "looking",
+    "staring intently",
+    "fixating",
+    "scrutinizing"
+  ],
+  "steamed": [
+    "cooked",
+    "heated",
+    "boiled",
+    "warm",
+    "vaporized"
+  ],
+  "steel": [
+    "iron",
+    "stainless",
+    "alloy",
+    "gauge",
+    "grade"
+  ],
+  "steep": [
+    "incline",
+    "slope",
+    "gradient",
+    "sharp",
+    "gradual"
+  ],
+  "still": [
+    "calm",
+    "motionless",
+    "stationary",
+    "unmoving",
+    "immobile"
+  ],
+  "stone": [
+    "rock",
+    "boulder",
+    "granite",
+    "polished",
+    "weathered"
+  ],
+  "straight": [
+    "linear",
+    "rectilinear",
+    "upight",
+    "aligned",
+    "parallel"
+  ],
+  "strawberry": [
+    "raspberry",
+    "cherry",
+    "fruit",
+    "ripe",
+    "fresh"
+  ],
+  "street": [
+    "road",
+    "avenue",
+    "lane",
+    "sidewalk",
+    "curb"
+  ],
+  "striped": [
+    "checked",
+    "plaid",
+    "h checks",
+    "patterned",
+    "textured"
+  ],
+  "strong": [
+    "powerful",
+    "robust",
+    "forceful",
+    "unyielding",
+    "intense"
+  ],
+  "stuffed": [
+    "plush",
+    "furry",
+    "soft",
+    "compressed",
+    "padded"
+  ],
+  "styrofoam": [
+    "foam",
+    "polystyrene foam",
+    "closed-cell foam",
+    "insulating",
+    "lightweight"
+  ],
+  "sunlit": [
+    "bright",
+    "well-lit",
+    "illuminated",
+    "cheerful",
+    "sunshiny"
+  ],
+  "sunny": [
+    "bright",
+    "cloudless",
+    "clear",
+    "sunny-day",
+    "sunny-side-up"
+  ],
+  "sweet": [
+    "sugary",
+    "syrupy",
+    "cloying",
+    "bittersweet",
+    "fruity"
+  ],
+  "swinging": [
+    "swaying",
+    "oscillating",
+    "vibrating",
+    "jerking",
+    "jiggling"
+  ],
+  "tall": [
+    "high",
+    "towering",
+    "lofty",
+    "stout",
+    "slender"
+  ],
+  "tan": [
+    "beige",
+    "light brown",
+    "sandy",
+    "muted",
+    "earth tone"
+  ],
+  "teal": [
+    "turquoise",
+    "aqua",
+    "cerulean",
+    "marine",
+    "verd"
+  ],
+  "textured": [
+    "ribbed",
+    "bumpy",
+    "pebbled",
+    "rough",
+    "suede-like"
+  ],
+  "thick": [
+    "chunky",
+    "substantial",
+    "dense",
+    "hefty",
+    "solid"
+  ],
+  "thin": [
+    "slender",
+    "lean",
+    "lite",
+    "delicate",
+    "svelte"
+  ],
+  "tied": [
+    "bound",
+    "fastened",
+    "secured",
+    "tightly",
+    "firmly"
+  ],
+  "tight": [
+    "fitting",
+    "snug",
+    "close-fitting",
+    "form-fittingting",
+    "body-hugging"
+  ],
+  "tiled": [
+    "mosaic",
+    "checkerboard",
+    "paved",
+    "stonework",
+    "patterned"
+  ],
+  "tilted": [
+    "inclined",
+    "slanted",
+    "leaned",
+    "crooked",
+    "oblique"
+  ],
+  "tin": [
+    "aluminum",
+    "steel",
+    "metal",
+    "foil",
+    "sheet",
+    "plate"
+  ],
+  "tinted": [
+    "frosted",
+    "smoked",
+    "tinted",
+    "translucent",
+    "opaquely transparent"
+  ],
+  "tiny": [
+    "small",
+    "miniature",
+    "petite",
+    "minuscule",
+    "diminutive"
+  ],
+  "toasted": [
+    "crisp",
+    "golden",
+    "well-done",
+    "lightly toasted",
+    "very toasted"
+  ],
+  "toilet": [
+    "bathroom fixture",
+    "commode",
+    "water closet",
+    "toilet seat",
+    "flush toilet"
+  ],
+  "tomato": [
+    "apple",
+    "berry",
+    "cherry",
+    "ripe",
+    "juicy"
+  ],
+  "torn": [
+    "frayed",
+    "ripped",
+    "worn",
+    "tattered",
+    "snagged"
+  ],
+  "toy": [
+    "doll",
+    "car",
+    "ball",
+    "action figure",
+    "building block"
+  ],
+  "translucent": [
+    "translucent",
+    "see-through",
+    "opaquely transparent",
+    "semi-transparent",
+    "translucid"
+  ],
+  "transparent": [
+    "clear",
+    "see-through",
+    "translucent",
+    "glimpse",
+    "permeable"
+  ],
+  "trash": [
+    "rubbish",
+    "garbage",
+    "waste",
+    "recyclable",
+    "biodegradable"
+  ],
+  "triangular": [
+    "angular",
+    "pointed",
+    "pyramidal",
+    "sharply-pointed",
+    "triangular-shaped"
+  ],
+  "trimmed": [
+    "polished",
+    "sharpened",
+    "buffed",
+    "smooth",
+    "clean"
+  ],
+  "tropical": [
+    "exotic",
+    "sunny",
+    "breezy",
+    "lush",
+    "vibrant"
+  ],
+  "turned": [
+    "rotated",
+    "tilted",
+    "bent",
+    "curved",
+    "inclined"
+  ],
+  "twisted": [
+    "winding",
+    "coiled",
+    "serpentine",
+    "curling",
+    "spiraling"
+  ],
+  "typical": [
+    "common",
+    "usual",
+    "normal"
+  ],
+  "ugly": [
+    "unattractive",
+    "repulsive",
+    "hideous",
+    "distasteful",
+    "abhorrent"
+  ],
+  "uncomfortable": [
+    "unfit",
+    "inconvenient",
+    "discomforting",
+    "unstable",
+    "awkward"
+  ],
+  "uncooked": [
+    "raw",
+    "uncooked",
+    "not cooked",
+    "undercooked",
+    "partially cooked"
+  ],
+  "unhappy": [
+    "sad",
+    "miserable",
+    "depressed",
+    "melancholy",
+    "gloomy"
+  ],
+  "unpaved": [
+    "dgraveled",
+    "dustry",
+    "muddy",
+    "barely passable",
+    "completely impassable"
+  ],
+  "unpeeled": [
+    "raw",
+    "barely",
+    "unshelled",
+    "intact",
+    "unprocessed"
+  ],
+  "unripe": [
+    "green",
+    "underripe",
+    "immature",
+    "unmatured",
+    "not yet ripe"
+  ],
+  "upholstered": [
+    "cushioned",
+    "softened",
+    "pad",
+    "embroidered",
+    "stuffed"
+  ],
+  "upper": [
+    "top",
+    "uppermost",
+    "highest",
+    "superior",
+    "peaked"
+  ],
+  "urban": [
+    "city",
+    "town",
+    "metropolitan",
+    "suburban",
+    "rural"
+  ],
+  "used": [
+    "applied",
+    "employed",
+    "utilized",
+    "activated",
+    "engaged"
+  ],
+  "vast": [
+    "wide",
+    "spacious",
+    "extensive",
+    "boundless",
+    "unlimited"
+  ],
+  "vertical": [
+    "up",
+    "vertical",
+    "perpendicular",
+    "upright",
+    "incline"
+  ],
+  "vintage": [
+    "antraditional",
+    "oold-fashioned",
+    "vtime-worn",
+    "pdistinctly vintage",
+    "qslightly vintage"
+  ],
+  "vinyl": [
+    "plastic",
+    "polyvinyl",
+    "synthetic",
+    "flexible",
+    "clear"
+  ],
+  "warm": [
+    "cozy",
+    "comfortable",
+    "heated",
+    "sunny",
+    "snug"
+  ],
+  "wavy": [
+    "curly",
+    "undulating",
+    "serpentine",
+    "sinuous",
+    "ruffled"
+  ],
+  "weathered": [
+    "aged",
+    "worn",
+    "tarned",
+    "cracked",
+    "faded"
+  ],
+  "wet": [
+    "drenched",
+    "dusty",
+    "moist",
+    "damp",
+    "soggy"
+  ],
+  "white": [
+    "snowy",
+    "pale",
+    "ivory",
+    "light",
+    "clean"
+  ],
+  "wicker": [
+    "rattan",
+    "reed",
+    "bamboo",
+    "woven",
+    "natural"
+  ],
+  "wide": [
+    "broad",
+    "wide-ranging",
+    "spacious",
+    "extensive",
+    "comprehensive"
+  ],
+  "wild": [
+    "feral",
+    "untamed",
+    "rampant",
+    "unrestrained",
+    "barraw"
+  ],
+  "winding": [
+    "twisting",
+    "coiling",
+    "looping",
+    "serpentine",
+    "undulating"
+  ],
+  "winter": [
+    "cold",
+    "frosty",
+    "chilly",
+    "icy",
+    "snowy"
+  ],
+  "wire": [
+    "cable",
+    "strand",
+    "filament",
+    "conductor",
+    "thread"
+  ],
+  "wired": [
+    "corded",
+    "plugged",
+    "electrified",
+    "connected",
+    "linked"
+  ],
+  "wireless": [
+    "cordless",
+    "unwired",
+    "radio",
+    "rechargeable",
+    "portable"
+  ],
+  "wood": [
+    "bark",
+    "plank",
+    "timber",
+    "oak",
+    "pine"
+  ],
+  "wooded": [
+    "forested",
+    "wooded-over",
+    "treed",
+    "overgrown with dense vegetation",
+    "partially wooded"
+  ],
+  "wool": [
+    "silk",
+    "cotton",
+    "cashmere",
+    "soft",
+    "fibrous"
+  ],
+  "worn": [
+    "torn",
+    "frayed",
+    "scuffed",
+    "worn-out",
+    "tattered"
+  ],
+  "woven": [
+    "braided",
+    "knitted",
+    "twill",
+    "interwoven",
+    "textured"
+  ],
+  "wrapped": [
+    "coiled",
+    "wound",
+    "bent",
+    "curled",
+    "twisted"
+  ],
+  "wrinkled": [
+    "creased",
+    "pleated",
+    "folded",
+    "crumpled",
+    "rumpled"
+  ],
+  "written": [
+    "printed",
+    "scribed",
+    "engraved",
+    "inscribed",
+    "notated"
+  ],
+  "yellow": [
+    "golden",
+    "amber",
+    "chartreuse",
+    "bright",
+    "cheerful"
+  ],
+  "young": [
+    "juvenile",
+    "adolescent",
+    "youthful",
+    "teenage",
+    "childlike"
+  ]
+}
